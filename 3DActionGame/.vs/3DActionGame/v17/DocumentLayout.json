@@ -1,0 +1,355 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerMove.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerMove.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerMove.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerMove.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Source\\10.0.22621.0\\ucrt\\heap\\debug_heap.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerDraw.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerDraw.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerDraw.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerDraw.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\EnemyDraw.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:EnemyDraw.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\EnemyDraw.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:EnemyDraw.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\Skydome.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Skydome.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\Skydome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Skydome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\EnemyManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:EnemyManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\EnemyBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:EnemyBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerMove.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerMove.h",
+              "RelativeDocumentMoniker": "PlayerMove.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerMove.h",
+              "RelativeToolTip": "PlayerMove.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-01T09:00:54.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerMove.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerMove.cpp",
+              "RelativeDocumentMoniker": "PlayerMove.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerMove.cpp",
+              "RelativeToolTip": "PlayerMove.cpp",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvw0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-01T09:00:37.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Input.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\Input.h",
+              "RelativeDocumentMoniker": "Input.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\Input.h",
+              "RelativeToolTip": "Input.h",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-01T09:00:23.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerDraw.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerDraw.h",
+              "RelativeDocumentMoniker": "PlayerDraw.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerDraw.h",
+              "RelativeToolTip": "PlayerDraw.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-01T08:59:14.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerDraw.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerDraw.cpp",
+              "RelativeDocumentMoniker": "PlayerDraw.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerDraw.cpp",
+              "RelativeToolTip": "PlayerDraw.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-01T08:59:10.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerBase.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerBase.cpp",
+              "RelativeDocumentMoniker": "PlayerBase.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerBase.cpp",
+              "RelativeToolTip": "PlayerBase.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-30T10:19:44.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerBase.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerBase.h",
+              "RelativeDocumentMoniker": "PlayerBase.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerBase.h",
+              "RelativeToolTip": "PlayerBase.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-30T10:19:39.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerManager.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerManager.h",
+              "RelativeDocumentMoniker": "PlayerManager.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerManager.h",
+              "RelativeToolTip": "PlayerManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-30T10:19:30.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerManager.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerManager.cpp",
+              "RelativeDocumentMoniker": "PlayerManager.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\PlayerManager.cpp",
+              "RelativeToolTip": "PlayerManager.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-30T10:20:52.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Input.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\Input.cpp",
+              "RelativeDocumentMoniker": "Input.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\Input.cpp",
+              "RelativeToolTip": "Input.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-30T10:20:39.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EnemyDraw.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\EnemyDraw.h",
+              "RelativeDocumentMoniker": "EnemyDraw.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\EnemyDraw.h",
+              "RelativeToolTip": "EnemyDraw.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-30T10:16:14.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Skydome.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\Skydome.h",
+              "RelativeDocumentMoniker": "Skydome.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\Skydome.h",
+              "RelativeToolTip": "Skydome.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-30T10:19:47.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EnemyDraw.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\EnemyDraw.cpp",
+              "RelativeDocumentMoniker": "EnemyDraw.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\EnemyDraw.cpp",
+              "RelativeToolTip": "EnemyDraw.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-30T10:16:11.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EnemyManager.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\EnemyManager.h",
+              "RelativeDocumentMoniker": "EnemyManager.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\EnemyManager.h",
+              "RelativeToolTip": "EnemyManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-30T10:16:09.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Skydome.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\Skydome.cpp",
+              "RelativeDocumentMoniker": "Skydome.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\Skydome.cpp",
+              "RelativeToolTip": "Skydome.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-30T10:19:49.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EnemyBase.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\EnemyBase.h",
+              "RelativeDocumentMoniker": "EnemyBase.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\EnemyBase.h",
+              "RelativeToolTip": "EnemyBase.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-30T10:16:02.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-30T10:06:58.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Camera.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\Camera.cpp",
+              "RelativeDocumentMoniker": "Camera.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\Camera.cpp",
+              "RelativeToolTip": "Camera.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-30T10:20:42.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "debug_heap.cpp",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Source\\10.0.22621.0\\ucrt\\heap\\debug_heap.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Source\\10.0.22621.0\\ucrt\\heap\\debug_heap.cpp",
+              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Source\\10.0.22621.0\\ucrt\\heap\\debug_heap.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Source\\10.0.22621.0\\ucrt\\heap\\debug_heap.cpp",
+              "ViewState": "AgIAAJ4DAAAAAAAAAAAtwLcDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-30T10:05:48.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Camera.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\Camera.h",
+              "RelativeDocumentMoniker": "Camera.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\3DActionGame\\Camera.h",
+              "RelativeToolTip": "Camera.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-30T10:04:32.358Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 199,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
