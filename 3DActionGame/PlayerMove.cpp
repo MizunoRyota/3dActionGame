@@ -4,6 +4,8 @@
 #include"Camera.h"
 #include"Input.h"
 PlayerMove::PlayerMove()
+	:moveVec(VGet(0,0,0))
+	,angle	(0)
 {
 }
 
@@ -11,20 +13,28 @@ PlayerMove::~PlayerMove()
 {
 }
 
-void PlayerMove::Update()
+void PlayerMove::Update(const Input& input, const Camera& camera)
 {
 	// パッド入力によって移動パラメータを設定する
 	VECTOR	upMoveVec;		// 方向ボタン「↑」を入力をしたときのプレイヤーの移動方向ベクトル
 	VECTOR	leftMoveVec;	// 方向ボタン「←」を入力をしたときのプレイヤーの移動方向ベクトル
-	VECTOR	moveVec;		// このフレームの移動ベクトル
+	moveVec = VGet(0, 0, 0);
+	UpdateMoveParameterWithPad(input, camera, upMoveVec, leftMoveVec, moveVec);	//プレイヤー座標更新処理
+
+	MoveAngle(camera.GetTarget()); //プレイヤーが進む方向にモデルを回転
 
 	// 移動ベクトルを元にコリジョンを考慮しつつプレイヤーを移動
 	Move(moveVec);
 
 }
 
-void PlayerMove::UpdateMoveParameterWithPad(const Input& input, const Camera& camera,VECTOR& upMoveVec, VECTOR& leftMoveVec, VECTOR& moveVec)
+void PlayerMove::UpdateMoveParameterWithPad(const Input& input, const Camera& camera, VECTOR& upMoveVec, VECTOR& leftMoveVec, VECTOR& moveVec)
 {
+
+	// プレイヤーの移動方向のベクトルを算出
+	// 方向ボタン「↑」を押したときのプレイヤーの移動ベクトルはカメラの視線方向からＹ成分を抜いたもの
+	upMoveVec = VSub(camera.GetTarget(), camera.GetPosition());
+	upMoveVec.y = 0.0f;
 
 	// 方向ボタン「←」を押したときのプレイヤーの移動ベクトルは上を押したときの方向ベクトルとＹ軸のプラス方向のベクトルに垂直な方向
 	leftMoveVec = VCross(upMoveVec, VGet(0.0f, 1.0f, 0.0f));
@@ -82,26 +92,74 @@ void PlayerMove::UpdateMoveParameterWithPad(const Input& input, const Camera& ca
 				isPressMoveButton = true;
 			}
 	}
-		// 移動ボタンが押されたかどうかで処理を分岐
-		if (isPressMoveButton)
-		{
+	// 移動ボタンが押されたかどうかで処理を分岐
+	if (isPressMoveButton)
+	{
 
-			// 移動ベクトルを正規化したものをプレイヤーが向くべき方向として保存
-			targetMoveDirection = VNorm(moveVec);
+		// 移動ベクトルを正規化したものをプレイヤーが向くべき方向として保存
+		targetMoveDirection = VNorm(moveVec);
 
-			// プレイヤーが向くべき方向ベクトルをプレイヤーのスピード倍したものを移動ベクトルとする
-			moveVec = VScale(targetMoveDirection, MoveSpeed);
-		}
-		else
-		{
-		}
+		// プレイヤーが向くべき方向ベクトルをプレイヤーのスピード倍したものを移動ベクトルとする
+		moveVec = VScale(targetMoveDirection, MoveSpeed);
+	}
+	else
+	{
+	}
 }
 
+void PlayerMove::MoveAngle(const VECTOR& targetPosition)
+{
+	// プレイヤーの移動方向にモデルの方向を近づける
+	float targetAngle;			// 目標角度
+	float difference;			// 目標角度と現在の角度との差
+
+	// 目標の方向ベクトルから角度値を算出する
+	targetAngle = static_cast<float>(atan2(targetMoveDirection.x, targetMoveDirection.z));
+
+	// 目標の角度と現在の角度との差を割り出す
+	// 最初は単純に引き算
+	difference = targetAngle - angle;
+
+	// ある方向からある方向の差が１８０度以上になることは無いので
+	// 差の値が１８０度以上になっていたら修正する
+	if (difference < -DX_PI_F)
+	{
+		difference += DX_TWO_PI_F;
+	}
+	else if (difference > DX_PI_F)
+	{
+		difference -= DX_TWO_PI_F;
+	}
+
+	// 角度の差が０に近づける
+	if (difference > 0.0f)
+	{
+		// 差がプラスの場合は引く
+		difference -= AngleSpeed;
+		if (difference < 0.0f)
+		{
+			difference = 0.0f;
+		}
+	}
+	else
+	{
+		// 差がマイナスの場合は足す
+		difference += AngleSpeed;
+		if (difference > 0.0f)
+		{
+			difference = 0.0f;
+		}
+	}
+
+	// モデルの角度を更新
+	angle = targetAngle - difference;
+	//MV1SetRotationXYZ(PlayerHandle, VGet(0.0f, angle + DX_PI_F, 0.0f));
+}
 
 void PlayerMove::Move(const VECTOR& MoveVector)
 {
 	// HACK: 移動距離が0.01未満で微妙に移動していた場合はじんわり移動してバグる
-// x軸かy軸方向に 0.01f 以上移動した場合は「移動した」フラグを１にする
+	// x軸かy軸方向に 0.01f 以上移動した場合は「移動した」フラグを１にする
 	if (fabs(MoveVector.x) > 0.01f || fabs(MoveVector.z) > 0.01f)
 	{
 		isMove = true;
@@ -111,6 +169,4 @@ void PlayerMove::Move(const VECTOR& MoveVector)
 		isMove = false;
 	}
 
-	// プレイヤーのモデルの座標を更新する
-	MV1SetPosition(PlayerHandle, position);
 }

@@ -135,28 +135,32 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="EnemyAStar.cpp" />
     <ClCompile Include="EnemyBase.cpp" />
-    <ClCompile Include="EnemyDraw.cpp" />
     <ClCompile Include="EnemyManager.cpp" />
+    <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PlayerAnimBase.cpp" />
     <ClCompile Include="PlayerBase.cpp" />
-    <ClCompile Include="PlayerDraw.cpp" />
     <ClCompile Include="PlayerManager.cpp" />
     <ClCompile Include="PlayerMove.cpp" />
     <ClCompile Include="Skydome.cpp" />
+    <ClCompile Include="Stage.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />
+    <ClInclude Include="EnemyAStar.h" />
     <ClInclude Include="EnemyBase.h" />
-    <ClInclude Include="EnemyDraw.h" />
     <ClInclude Include="EnemyManager.h" />
+    <ClInclude Include="GameManager.h" />
     <ClInclude Include="Input.h" />
+    <ClInclude Include="PlayerAnimBase.h" />
     <ClInclude Include="PlayerBase.h" />
-    <ClInclude Include="PlayerDraw.h" />
     <ClInclude Include="PlayerManager.h" />
     <ClInclude Include="PlayerMove.h" />
     <ClInclude Include="Skydome.h" />
+    <ClInclude Include="Stage.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

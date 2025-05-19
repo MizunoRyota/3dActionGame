@@ -10,8 +10,8 @@ public:
 	void Initialize();
 	void Update();
 	void Draw();
+
 private:
-	int PlayerHandle;
-	static constexpr int StatusNum = 4;
+	static constexpr int StatusNum = 2;
 	PlayerBase* player[StatusNum];
 };

@@ -21,4 +21,3 @@ private:
 	int EnemyHandle;
 	VECTOR pos;
 };
-

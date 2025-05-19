@@ -11,18 +11,21 @@ public:
 	Camera();			// コンストラクタ.
 	~Camera();			// デストラクタ.
 	void Load();		//初期化
-	void Update();
+	void Update(VECTOR playerPos);
 	void FixCameraPosition();
 	// ポジションのgetter/setter.
 	const VECTOR& GetPosition() const { return position; }
 	const VECTOR& GetTarget()	const { return targetPosition; }
 
 private:
-	static constexpr float Zoom = 3.0f;
-	static constexpr float TargetHight = 1.3;		//ターゲットの見る高さ
-	static constexpr float AngleSpeed = 0.15f;		//向きが変わるスピード
+	static constexpr float   CameraTargetPlayerHeight = 0.075f;   // プレイヤーからカメラの注視点への高さ
+	static constexpr float   ToPlayerLength = 0.20f;				// プレイヤーとの距離
+	static constexpr float AngleSpeed = 0.075f;					//向きが変わるスピード
+	static constexpr float CameraPlayerTargetHeight = 1.25f;		// プレイヤー座標からどれだけ高い位置を注視点とするか
+
 	float            angleVertical;					// カメラの垂直角度
 	float            angleHorizontal;				// カメラの水平角度
+	float            shakeOffset;					// カメラを揺らしたときのずらした値の保存
 
 	float shakeTime;			//揺れ時間
 	bool isDamage;				//ダメージを受けているか
@@ -31,6 +34,7 @@ private:
 	VECTOR Offset;				//
 	VECTOR OriginalOffset;		//
 	VECTOR AngleVec;			//向きベクトル
-	VECTOR	position;			// ポジション.
+	VECTOR position;			// ポジション.
 	VECTOR targetPosition;		//　カメラが注視するポジション
+
 };

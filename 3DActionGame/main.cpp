@@ -1,6 +1,10 @@
 #include"EffekseerForDXLib.h"
 #include"Camera.h"
 #include"Skydome.h"
+#include"Stage.h"
+#include"Input.h"
+#include"PlayerBase.h"
+#include"PlayerMove.h"
 #include"PlayerManager.h"
 #include"EnemyManager.h"
 enum STATE
@@ -17,7 +21,9 @@ enum STATE
 	STATE_GAMEOVER,		//ゲームオーバー.
 	STATE_CLEAR,		//ゲームクリア.
 };
+
 const int HITCHECK_NUM = 2;
+
 /// <summary>
 /// メイン関数
 /// </summary>
@@ -25,7 +31,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 {
 	// 画面モードのセット
 	SetGraphMode(1920, 1080, 32);
-	ChangeWindowMode(FALSE);
+	ChangeWindowMode(TRUE);
 
 	// DXライブラリを初期化する。
 	if (DxLib_Init() == -1) return -1;
@@ -46,50 +52,69 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 	// Effekseerを使用する場合は必ず設定する。
 	SetChangeScreenModeGraphicsSystemResetFlag(FALSE);
 
-	//// DXライブラリのデバイスロストした時のコールバックを設定する。
-	//// ウインドウとフルスクリーンの切り替えが発生する場合は必ず実行する。
-	//// ただし、DirectX11を使用する場合は実行する必要はない。
-	//Effekseer_SetGraphicsDeviceLostCallbackFunctions();
-
 	SetDrawScreen(DX_SCREEN_BACK);	// 裏画面を描画対象にする
 	SetUseZBufferFlag(TRUE);		// Ｚバッファを使用する
 	SetWriteZBufferFlag(TRUE);		// Ｚバッファへの書き込みを行う
 	SetUseBackCulling(TRUE);		// バックカリングを行う
 
+	// フォグを有効にする
+	SetFogEnable(TRUE);
+
+	// フォグの色を暗い色にする
+	SetFogColor(0.0f, 10.0f, 10.0f);
+
+	// 標準ライトのアンビエントカラーを暗い緑色にする
+	SetLightAmbColor(GetColorF(0.0f, 20.0f, 20.0f, 0.0f));
+
+	// フォグの開始距離を０、終了距離を15にする
+	SetFogStartEnd(0.0f, 15.0f);
+
+	// ライティングの計算をしないように設定を変更
+	//SetUseLighting(FALSE);
+	   float Range, Atten0, Atten1, Atten2 ;
+	   // 各パラメータを初期化
+	   Range = 2000.0f;
+	   Atten0 = 0.0f;
+	   Atten1 = 0.0006f;
+	   Atten2 = 0.0f;
+
+		// モデルの上空にポイントライトを設定
+	ChangeLightTypePoint(
+		VGet(320.0f, 1000.0f, 200.0f),
+		Range,
+		Atten0,
+		Atten1,
+		Atten2);
 	//std::shared_ptr<Camera> camera = std::make_shared<Camera>();
 	//std::shared_ptr<PlayerManager> player = std::make_shared<PlayerManager>();
 	//std::shared_ptr<Skydome> skydome = std::make_shared<Skydome>();
 	Camera* camera = new Camera();
 	Skydome* skydome = new Skydome();
-	PlayerManager* player = new PlayerManager();
+	Stage* stage = new Stage();
+	Input* input = new Input();
+	// プレイヤーを生成
+	PlayerBase* player = new PlayerBase;
 	while (ProcessMessage() == 0 && CheckHitKey(KEY_INPUT_ESCAPE) == 0)
 	{
 		auto prevTime = GetNowHiPerformanceCount();	// 処理が始まる前の時間
 
-
-
-		
-
-
-
-
-
-		camera->Update();
 		skydome->Update();
+		input->Update();
+		player->Update(*input,*camera,*stage);
+		camera->Update(player->GetPosition());
+		// 障害物制御
 
 		// 画面を初期化する
 		ClearDrawScreen();
 		skydome->Draw();
+		stage->Draw();
 		player->Draw();
 
 
 
 
-
-
-
-
-
+		// 裏画面の内容を表画面に反映させる
+		ScreenFlip();
 		// 差を求めて、1回の画面更新が1/60秒になるようにwhileループ回して待つ
 		auto afterTime = GetNowHiPerformanceCount(); // 処理が終わった後の時間
 		while (afterTime - prevTime < 16667)

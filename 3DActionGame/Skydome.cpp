@@ -5,7 +5,7 @@ Skydome::Skydome()
 	:pos(VGet(0,0,0))
 	,SkydomeHandle(0)
 {
-	SkydomeHandle = MV1LoadModel("data/3dmodel/skydome/Night/Dome_Y901.pmx");
+	SkydomeHandle = MV1LoadModel("data/3dmodel/skydome/Night/Dome_Y902.pmx");
 	// プレイヤーのモデルの座標を更新する
 	MV1SetPosition(SkydomeHandle, pos);
 	// 3Dモデルのスケール決定
