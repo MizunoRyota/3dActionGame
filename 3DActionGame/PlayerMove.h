@@ -26,7 +26,4 @@ private:
 	VECTOR	moveVec;							// このフレームの移動ベクトル
 	bool	isMove;								// そのフレームで動いたかどうか
 	float angle;								//プレイヤーが向く方向
-
-
-
 };

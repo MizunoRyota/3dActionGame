@@ -5,8 +5,8 @@
 #include"Input.h"
 #include"PlayerBase.h"
 #include"PlayerMove.h"
-#include"PlayerManager.h"
-#include"EnemyManager.h"
+#include"EnemyBase.h"
+
 enum STATE
 {
 	STATE_LOAD,			//ロード.
@@ -22,8 +22,6 @@ enum STATE
 	STATE_CLEAR,		//ゲームクリア.
 };
 
-const int HITCHECK_NUM = 2;
-
 /// <summary>
 /// メイン関数
 /// </summary>
@@ -31,7 +29,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 {
 	// 画面モードのセット
 	SetGraphMode(1920, 1080, 32);
-	ChangeWindowMode(TRUE);
+	ChangeWindowMode(FALSE);
 
 	// DXライブラリを初期化する。
 	if (DxLib_Init() == -1) return -1;
@@ -62,29 +60,10 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 
 	// フォグの色を暗い色にする
 	SetFogColor(0.0f, 10.0f, 10.0f);
-
-	// 標準ライトのアンビエントカラーを暗い緑色にする
-	SetLightAmbColor(GetColorF(0.0f, 20.0f, 20.0f, 0.0f));
-
 	// フォグの開始距離を０、終了距離を15にする
-	SetFogStartEnd(0.0f, 15.0f);
+	SetFogStartEnd(0.0f, 25.0f);
 
-	// ライティングの計算をしないように設定を変更
-	//SetUseLighting(FALSE);
-	   float Range, Atten0, Atten1, Atten2 ;
-	   // 各パラメータを初期化
-	   Range = 2000.0f;
-	   Atten0 = 0.0f;
-	   Atten1 = 0.0006f;
-	   Atten2 = 0.0f;
 
-		// モデルの上空にポイントライトを設定
-	ChangeLightTypePoint(
-		VGet(320.0f, 1000.0f, 200.0f),
-		Range,
-		Atten0,
-		Atten1,
-		Atten2);
 	//std::shared_ptr<Camera> camera = std::make_shared<Camera>();
 	//std::shared_ptr<PlayerManager> player = std::make_shared<PlayerManager>();
 	//std::shared_ptr<Skydome> skydome = std::make_shared<Skydome>();
@@ -93,13 +72,15 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 	Stage* stage = new Stage();
 	Input* input = new Input();
 	// プレイヤーを生成
-	PlayerBase* player = new PlayerBase;
+	PlayerBase* player = new PlayerBase();
+	EnemyBase* enemy = new EnemyBase();
 	while (ProcessMessage() == 0 && CheckHitKey(KEY_INPUT_ESCAPE) == 0)
 	{
 		auto prevTime = GetNowHiPerformanceCount();	// 処理が始まる前の時間
 
 		skydome->Update();
 		input->Update();
+		enemy->Update();
 		player->Update(*input,*camera,*stage);
 		camera->Update(player->GetPosition());
 		// 障害物制御
@@ -109,7 +90,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 		skydome->Draw();
 		stage->Draw();
 		player->Draw();
-
+		enemy->Draw();
 
 
 

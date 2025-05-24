@@ -7,10 +7,14 @@ Stage::Stage()
 	:StageHandle(-1)
 	,wallNum(0)
 	,floorNum(0)
+	,position(VGet(0,0,0))
 {
-	StageHandle = MV1LoadModel("data/3dmodel/Stage/BackRooms/Backrooms.mv1");
+	StageHandle = MV1LoadModel(_T("data/3dmodel/Stage/BackRooms/map_ver1.mv1"));
 	// 3Dモデルのスケール決定
 	MV1SetScale(StageHandle, VGet(Scale, Scale, Scale));
+
+	MV1SetPosition(StageHandle, position);
+
 	// モデル全体のコリジョン情報のセットアップ
 	MV1SetupCollInfo(StageHandle, -1);
 }

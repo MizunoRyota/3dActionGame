@@ -38,12 +38,12 @@ void Camera::Update(VECTOR playerPos)
 {
     //ぼたんおしたら
     clsDx();
-    printfDx("xpos%f\n", position.x);
-    printfDx("ypos%f\n", position.y);
-    printfDx("zpos%f\n", position.z);
-    printfDx("xpos%f\n", targetPosition.x);
-    printfDx("ypos%f\n", targetPosition.y);
-    printfDx("zpos%f\n", targetPosition.z);
+    printfDx(_T("xpos%f\n", position.x));
+    printfDx(_T("ypos%f\n", position.y));
+    printfDx(_T("zpos%f\n", position.z));
+    printfDx(_T("xpos%f\n", targetPosition.x));
+    printfDx(_T("ypos%f\n", targetPosition.y));
+    printfDx(_T("zpos%f\n", targetPosition.z));
 
     // 「←」ボタンが押されていたら水平角度をマイナスする
     if (rightInput->IsInputAnalogKey(Input::AnalogLeft))

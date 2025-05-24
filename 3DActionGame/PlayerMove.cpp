@@ -95,7 +95,6 @@ void PlayerMove::UpdateMoveParameterWithPad(const Input& input, const Camera& ca
 	// 移動ボタンが押されたかどうかで処理を分岐
 	if (isPressMoveButton)
 	{
-
 		// 移動ベクトルを正規化したものをプレイヤーが向くべき方向として保存
 		targetMoveDirection = VNorm(moveVec);
 
@@ -153,7 +152,6 @@ void PlayerMove::MoveAngle(const VECTOR& targetPosition)
 
 	// モデルの角度を更新
 	angle = targetAngle - difference;
-	//MV1SetRotationXYZ(PlayerHandle, VGet(0.0f, angle + DX_PI_F, 0.0f));
 }
 
 void PlayerMove::Move(const VECTOR& MoveVector)

@@ -1,6 +1,8 @@
 #pragma once
 
 #include"PlayerMove.h"
+#include"PlayerAnimBase.h"
+
 class Stage;
 
 class PlayerBase 
@@ -14,7 +16,7 @@ public:
 	virtual void Draw() const ;				// 描画.
 
 	// モデルハンドルの取得.
-	int GetModelHandle() { return PlayerHandle; }
+	int GetModelHandle() const { return PlayerHandle; }
 
 	// ポジションのgetter/setter.
 	const VECTOR& GetPosition() const { return position; }
@@ -23,11 +25,12 @@ public:
 protected:
 	static constexpr float Scale = 0.0052f;	//モデルの大きさの倍数
 
-
 	int PlayerHandle;	//モデルハンドル
+	int currentState;	//現在のプレイヤーの状態
 	VECTOR position;	// プレイヤーの座標
 	PlayerMove* playermove;
-
+	PlayerAnimBase* playeranim;
 	// 移動処理
 	void Move(const VECTOR& MoveVector,Stage& stage);
+
 };

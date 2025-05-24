@@ -24,6 +24,8 @@ private:
 
 	int StageHandle;	//モデルハンドル
 
+	VECTOR position;
+
 	// HACK: 壁はXZ平面に垂直である前提で成り立っている。それ以外を置くとバグる
 	int							wallNum;			// 壁ポリゴンと判断されたポリゴンの数
 	int							floorNum;			// 床ポリゴンと判断されたポリゴンの数

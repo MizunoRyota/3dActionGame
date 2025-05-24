@@ -17,16 +17,13 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Source\Player\PlayerAnimation">
+      <UniqueIdentifier>{ee284eff-d748-4003-99ed-5eb3bda9e08b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source\GamePlay</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerManager.cpp">
-      <Filter>Source\Player</Filter>
-    </ClCompile>
-    <ClCompile Include="EnemyManager.cpp">
-      <Filter>Source\Enemy</Filter>
     </ClCompile>
     <ClCompile Include="Skydome.cpp">
       <Filter>Source\Enviroment</Filter>
@@ -56,16 +53,13 @@
       <Filter>Source\Enemy</Filter>
     </ClCompile>
     <ClCompile Include="PlayerAnimBase.cpp">
-      <Filter>Source\Player</Filter>
+      <Filter>Source\Player\PlayerAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerIdle.cpp">
+      <Filter>Source\Player\PlayerAnimation</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="PlayerManager.h">
-      <Filter>Source\Player</Filter>
-    </ClInclude>
-    <ClInclude Include="EnemyManager.h">
-      <Filter>Source\Enemy</Filter>
-    </ClInclude>
     <ClInclude Include="Skydome.h">
       <Filter>Source\Enviroment</Filter>
     </ClInclude>
@@ -94,7 +88,10 @@
       <Filter>Source\Enemy</Filter>
     </ClInclude>
     <ClInclude Include="PlayerAnimBase.h">
-      <Filter>Source\Player</Filter>
+      <Filter>Source\Player\PlayerAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerIdle.h">
+      <Filter>Source\Player\PlayerAnimation</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

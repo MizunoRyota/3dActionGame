@@ -1,8 +1,6 @@
 #pragma once
 
-#include"DxLib.h"
-
-class EnemyBase 
+class EnemyBase
 {
 public:
 	EnemyBase();
@@ -14,10 +12,12 @@ public:
 	int GetModelHandle() { return EnemyHandle; }
 
 	// ポジションのgetter/setter.
-	const VECTOR& GetPos() const { return pos; }
-	void SetPos(const VECTOR set) { pos = set; }
+	const VECTOR& GetPos() const { return position; }
+	void SetPos(const VECTOR set) { position = set; }
 
 private:
+	static constexpr float Scale = 1.0f;	//モデルの大きさの倍数
+	
 	int EnemyHandle;
-	VECTOR pos;
+	VECTOR position;
 };
