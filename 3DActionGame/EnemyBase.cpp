@@ -1,5 +1,4 @@
 #include"DxLib.h"
-#include"EnemyAStar.h"
 #include"EnemyBase.h"
 
 EnemyBase::EnemyBase()
@@ -9,7 +8,11 @@ EnemyBase::EnemyBase()
 	EnemyHandle = MV1LoadModel(_T("data/3dmodel/Enemy/siren.mv1"));
 	// 3Dモデルのスケール決定
 	MV1SetScale(EnemyHandle, VGet(Scale, Scale, Scale));
+	// 3Dモデルの位置決定
 	MV1SetPosition(EnemyHandle, position);
+	//インスタンス生成
+	astar = new A_Star();
+
 }
 
 EnemyBase::~EnemyBase()
@@ -19,6 +22,13 @@ EnemyBase::~EnemyBase()
 void EnemyBase::Update()
 {
 
+	astar->Update(position);
+
+
+}
+
+void EnemyBase::Move()
+{
 
 	MV1SetPosition(EnemyHandle, position);
 }

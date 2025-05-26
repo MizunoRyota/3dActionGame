@@ -1,35 +1,35 @@
 #pragma once
+
+
 class A_Star
 {
 public:
+
 	A_Star();
 	~A_Star();
+	
 	void MapInitialize();
+
 	void CalcDistance();
-	void Update();
+	
+	void Update(VECTOR enemypos);
+
+
+
 private:
+	static constexpr float Harf = 0.5f;			//ハーフサイズ
     // マップサイズ（必要に応じて変更）
-    static constexpr int MapHeight = 10;		//マップの横軸
-    static constexpr int MapWidth = 10;			//マップの縦幅
-    //static constexpr int MapDepth = 10;		//マップの奥行
-
+    static constexpr int MapHeight = 11;		//マップの横軸
+    static constexpr int MapWidth = 11;			//マップの縦幅
+    static constexpr int MapChipSize = 100;		//マップのサイズ
+    static constexpr int AllMapChipSize_X = MapHeight * MapChipSize;		//
+    static constexpr int AllMapChipSize_Z = MapWidth * MapChipSize;			//
+    static constexpr int MapChipSizeOffset = MapChipSize * Harf;			// 個々の座標を中心に設定するためのオフセット
 	//map配列
-	VECTOR map[MapHeight][MapWidth] = {
-		{0,0,0,0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0,0,0,0},
-	};
+	VECTOR map[MapHeight][MapWidth];
 
-	VECTOR PlayerPos = VGet(0,0,0);		//プレイヤーのポジション
-	VECTOR EnemyPos;		//エネミーのポジション
-	VECTOR DistancePos;		//プレイヤーとエネミーの距離
-
+	VECTOR playerPos;					//プレイヤーのポジション
+	VECTOR enemyPos;					//エネミーのポジション
+	VECTOR distancePos;					//プレイヤーとエネミーの距離
 
 };

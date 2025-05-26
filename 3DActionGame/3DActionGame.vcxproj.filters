@@ -58,6 +58,9 @@
     <ClCompile Include="PlayerIdle.cpp">
       <Filter>Source\Player\PlayerAnimation</Filter>
     </ClCompile>
+    <ClCompile Include="GameSceneBase.cpp">
+      <Filter>Source\GamePlay</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Skydome.h">
@@ -92,6 +95,9 @@
     </ClInclude>
     <ClInclude Include="PlayerIdle.h">
       <Filter>Source\Player\PlayerAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSceneBase.h">
+      <Filter>Source\GamePlay</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

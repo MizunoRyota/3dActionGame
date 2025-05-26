@@ -1,12 +1,17 @@
 #pragma once
 
+#include"EnemyAStar.h"
+
 class EnemyBase
 {
 public:
 	EnemyBase();
 	virtual ~EnemyBase();
 
+	void Initialize();
+
 	virtual void Update();
+	virtual void Move();
 	virtual void Draw();
 
 	int GetModelHandle() { return EnemyHandle; }
@@ -20,4 +25,8 @@ private:
 	
 	int EnemyHandle;
 	VECTOR position;
+
+	//インスタンス生成
+	A_Star* astar;
+
 };

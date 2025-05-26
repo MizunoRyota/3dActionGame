@@ -6,21 +6,7 @@
 #include"PlayerBase.h"
 #include"PlayerMove.h"
 #include"EnemyBase.h"
-
-enum STATE
-{
-	STATE_LOAD,			//ロード.
-	STATE_INIT,			//初期化.
-	STATE_TITLE,		//タイトル.
-	STATE_READY,        //準備
-	STATE_TUTORIAL,     //準備
-	STATE_LESSON,		//ゲームが始まるまでのカウント
-	STATE_GAME,			//ゲーム中.
-	STATE_READYGAMEOVER,//やられている状態
-	STATE_READYCLEAR,	//クリア状態
-	STATE_GAMEOVER,		//ゲームオーバー.
-	STATE_CLEAR,		//ゲームクリア.
-};
+#include"EnemyAStar.h"
 
 /// <summary>
 /// メイン関数

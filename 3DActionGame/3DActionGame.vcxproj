@@ -147,6 +147,7 @@
     <ClCompile Include="EnemyAStar.cpp" />
     <ClCompile Include="EnemyBase.cpp" />
     <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="GameSceneBase.cpp" />
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PlayerAnimBase.cpp" />
@@ -161,6 +162,7 @@
     <ClInclude Include="EnemyAStar.h" />
     <ClInclude Include="EnemyBase.h" />
     <ClInclude Include="GameManager.h" />
+    <ClInclude Include="GameSceneBase.h" />
     <ClInclude Include="Input.h" />
     <ClInclude Include="PlayerAnimBase.h" />
     <ClInclude Include="PlayerBase.h" />
