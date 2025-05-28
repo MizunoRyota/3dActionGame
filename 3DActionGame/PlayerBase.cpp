@@ -16,7 +16,10 @@ PlayerBase::PlayerBase()
 PlayerBase::~PlayerBase()
 {
 }
-
+void PlayerBase::Initialize()
+{
+	
+}
 void PlayerBase::Update(const Input& input, const Camera& camera, Stage& stage)
 {
 

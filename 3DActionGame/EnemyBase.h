@@ -10,7 +10,7 @@ public:
 
 	void Initialize();
 
-	virtual void Update();
+	virtual void Update(VECTOR playerpos);
 	virtual void Move();
 	virtual void Draw();
 

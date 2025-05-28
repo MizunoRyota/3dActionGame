@@ -1,25 +1,21 @@
 ﻿  EnemyAStar.cpp
-C:\Users\user\Desktop\バックアップ\HorrorGame\3DActionGame\EnemyAStar.h(27,58): warning C4244: '初期化中': 'float' から 'const int' への変換です。データが失われる可能性があります。
+D:\Yuizemi\2025Production\2025ProductionExhibition\3DActionGame\EnemyAStar.h(27,58): warning C4244: '初期化中': 'float' から 'const int' への変換です。データが失われる可能性があります。
   (ソース ファイル 'EnemyAStar.cpp' をコンパイルしています)
   
-C:\Users\user\Desktop\バックアップ\HorrorGame\3DActionGame\EnemyAStar.cpp(22,2): error C2065: 'DistancePos': 定義されていない識別子です。
-C:\Users\user\Desktop\バックアップ\HorrorGame\3DActionGame\EnemyAStar.cpp(22,21): error C2065: 'PlayerPos': 定義されていない識別子です。
-C:\Users\user\Desktop\バックアップ\HorrorGame\3DActionGame\EnemyAStar.cpp(22,32): error C2065: 'EnemyPos': 定義されていない識別子です。
-C:\Users\user\Desktop\バックアップ\HorrorGame\3DActionGame\EnemyAStar.cpp(31,14): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\user\Desktop\バックアップ\HorrorGame\3DActionGame\EnemyAStar.cpp(33,14): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\user\Desktop\バックアップ\HorrorGame\3DActionGame\EnemyAStar.cpp(35,23): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\user\Desktop\バックアップ\HorrorGame\3DActionGame\EnemyAStar.cpp(35,33): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+D:\Yuizemi\2025Production\2025ProductionExhibition\3DActionGame\EnemyAStar.cpp(36,14): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+D:\Yuizemi\2025Production\2025ProductionExhibition\3DActionGame\EnemyAStar.cpp(38,14): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+D:\Yuizemi\2025Production\2025ProductionExhibition\3DActionGame\EnemyAStar.cpp(40,37): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+D:\Yuizemi\2025Production\2025ProductionExhibition\3DActionGame\EnemyAStar.cpp(40,47): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
   EnemyBase.cpp
-C:\Users\user\Desktop\バックアップ\HorrorGame\3DActionGame\EnemyAStar.h(27,58): warning C4244: '初期化中': 'float' から 'const int' への変換です。データが失われる可能性があります。
+D:\Yuizemi\2025Production\2025ProductionExhibition\3DActionGame\EnemyAStar.h(27,58): warning C4244: '初期化中': 'float' から 'const int' への変換です。データが失われる可能性があります。
   (ソース ファイル 'EnemyBase.cpp' をコンパイルしています)
   
-  GameManager.cpp
-  GameSceneBase.cpp
   main.cpp
-C:\Users\user\Desktop\バックアップ\HorrorGame\3DActionGame\EnemyAStar.h(27,58): warning C4244: '初期化中': 'float' から 'const int' への変換です。データが失われる可能性があります。
+D:\Yuizemi\2025Production\2025ProductionExhibition\3DActionGame\EnemyAStar.h(27,58): warning C4244: '初期化中': 'float' から 'const int' への変換です。データが失われる可能性があります。
   (ソース ファイル 'main.cpp' をコンパイルしています)
   
-C:\Users\user\Desktop\バックアップ\HorrorGame\3DActionGame\main.cpp(48,27): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\user\Desktop\バックアップ\HorrorGame\3DActionGame\main.cpp(48,20): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\user\Desktop\バックアップ\HorrorGame\3DActionGame\main.cpp(48,14): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+D:\Yuizemi\2025Production\2025ProductionExhibition\3DActionGame\main.cpp(48,27): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+D:\Yuizemi\2025Production\2025ProductionExhibition\3DActionGame\main.cpp(48,20): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+D:\Yuizemi\2025Production\2025ProductionExhibition\3DActionGame\main.cpp(48,14): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
   コードを生成中...
+  3DActionGame.vcxproj -> D:\Yuizemi\2025Production\2025ProductionExhibition\3DActionGame\x64\Debug\3DActionGame.exe

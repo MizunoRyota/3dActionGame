@@ -60,13 +60,16 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 	// プレイヤーを生成
 	PlayerBase* player = new PlayerBase();
 	EnemyBase* enemy = new EnemyBase();
+
+	enemy->Initialize();
+
 	while (ProcessMessage() == 0 && CheckHitKey(KEY_INPUT_ESCAPE) == 0)
 	{
 		auto prevTime = GetNowHiPerformanceCount();	// 処理が始まる前の時間
 
 		skydome->Update();
 		input->Update();
-		enemy->Update();
+		enemy->Update(player->GetPosition());
 		player->Update(*input,*camera,*stage);
 		camera->Update(player->GetPosition());
 		// 障害物制御

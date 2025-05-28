@@ -11,7 +11,7 @@ public:
 
 	PlayerBase();
 	virtual ~PlayerBase();
-
+	virtual void Initialize();		// ‰Šú‰»ˆ—.
 	virtual void Update(const Input& input, const Camera& camera,Stage& stage) ;					// XV.
 	virtual void Draw() const ;				// •`‰æ.
 

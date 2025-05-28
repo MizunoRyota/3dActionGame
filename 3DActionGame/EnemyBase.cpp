@@ -3,7 +3,7 @@
 
 EnemyBase::EnemyBase()
 	:EnemyHandle(0)
-	,position(VGet(0.0f,0.0f,0.0f))
+	,position(VGet(-30.0f,0.0f,40.0f))
 {
 	EnemyHandle = MV1LoadModel(_T("data/3dmodel/Enemy/siren.mv1"));
 	// 3Dモデルのスケール決定
@@ -18,11 +18,15 @@ EnemyBase::EnemyBase()
 EnemyBase::~EnemyBase()
 {
 }
-
-void EnemyBase::Update()
+void EnemyBase::Initialize()
+{
+	//A*のマップ初期化
+	astar->MapInitialize();
+}
+void EnemyBase::Update(VECTOR playerpos)
 {
 
-	astar->Update(position);
+	astar->Update(position,playerpos);
 
 
 }
