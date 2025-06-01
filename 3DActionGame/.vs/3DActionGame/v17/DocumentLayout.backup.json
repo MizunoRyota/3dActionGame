@@ -1,110 +1,114 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\",
+  "WorkspaceRootPath": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyAStar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:EnemyAStar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyAStar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyAStar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:EnemyAStar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:EnemyBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:EnemyBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerMove.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerMove.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameSceneBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:GameSceneBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerAnimBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerAnimBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyAStar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:EnemyAStar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameSceneBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:GameSceneBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerMove.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerMove.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerAnimBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerAnimBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Skydome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Skydome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Stage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Stage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Stage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerIdle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerMove.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerMove.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Skydome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Skydome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:EnemyBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerMove.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerMove.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameSceneBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:GameSceneBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerAnimBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerAnimBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameSceneBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:GameSceneBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerAnimBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerAnimBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerIdle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerIdle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerIdle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerIdle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerIdle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Skydome.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Skydome.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Skydome.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Stage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Stage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Stage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EffekseerForDXLib.h\\Effekseer.Modules.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EffekseerForDXLib.h\\Effekseer.Modules.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EffekseerForDXLib.h\\Effekseer.Modules.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EffekseerForDXLib.h\\DxLib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EffekseerForDXLib.h\\DxLib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -113,89 +117,137 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 225,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 257,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Input.cpp",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Input.cpp",
-              "RelativeDocumentMoniker": "Input.cpp",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Input.cpp",
-              "RelativeToolTip": "Input.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-20T09:33:07.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PlayerMove.h",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerMove.h",
-              "RelativeDocumentMoniker": "PlayerMove.h",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerMove.h",
-              "RelativeToolTip": "PlayerMove.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 26,
+              "Title": "DxLib.h",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EffekseerForDXLib.h\\DxLib.h",
+              "RelativeDocumentMoniker": "EffekseerForDXLib.h\\DxLib.h",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EffekseerForDXLib.h\\DxLib.h",
+              "RelativeToolTip": "EffekseerForDXLib.h\\DxLib.h",
+              "ViewState": "AgIAAFUKAAAAAAAAAAAhwGcKAAB/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-24T07:04:11.238Z"
+              "WhenOpened": "2025-05-31T07:10:32.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EnemyBase.cpp",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyBase.cpp",
-              "RelativeDocumentMoniker": "EnemyBase.cpp",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyBase.cpp",
-              "RelativeToolTip": "EnemyBase.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-20T10:27:09.571Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "main.cpp",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\main.cpp",
-              "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAADEAAAAAAAAAAAAQwD8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-20T08:12:54.471Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EnemyAStar.cpp",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyAStar.cpp",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyAStar.cpp",
               "RelativeDocumentMoniker": "EnemyAStar.cpp",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyAStar.cpp",
-              "RelativeToolTip": "EnemyAStar.cpp",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyAStar.cpp*",
+              "RelativeToolTip": "EnemyAStar.cpp*",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-20T10:23:45.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerMove.cpp",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerMove.cpp",
+              "RelativeDocumentMoniker": "PlayerMove.cpp",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerMove.cpp",
+              "RelativeToolTip": "PlayerMove.cpp",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-20T10:26:04.435Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Stage.cpp",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Stage.cpp",
+              "RelativeDocumentMoniker": "Stage.cpp",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Stage.cpp",
+              "RelativeToolTip": "Stage.cpp",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-20T08:11:40.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Camera.cpp",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Camera.cpp",
+              "RelativeDocumentMoniker": "Camera.cpp",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Camera.cpp",
+              "RelativeToolTip": "Camera.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-22T04:46:05.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PlayerBase.h",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerBase.h",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerBase.h",
               "RelativeDocumentMoniker": "PlayerBase.h",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerBase.h",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerBase.h",
               "RelativeToolTip": "PlayerBase.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAWwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-26T10:01:54.32Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAWwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-20T08:12:54.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyBase.cpp",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyBase.cpp",
+              "RelativeDocumentMoniker": "EnemyBase.cpp",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyBase.cpp",
+              "RelativeToolTip": "EnemyBase.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-20T10:27:09.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Camera.h",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Camera.h",
+              "RelativeDocumentMoniker": "Camera.h",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Camera.h",
+              "RelativeToolTip": "Camera.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-26T07:59:26.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Skydome.cpp",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Skydome.cpp",
+              "RelativeDocumentMoniker": "Skydome.cpp",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Skydome.cpp",
+              "RelativeToolTip": "Skydome.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-22T04:46:16.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "PlayerBase.cpp",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerBase.cpp",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerBase.cpp",
               "RelativeDocumentMoniker": "PlayerBase.cpp",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerBase.cpp",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerBase.cpp",
               "RelativeToolTip": "PlayerBase.cpp",
               "ViewState": "AgIAAAEAAAAAAAAAAAAkwBIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -203,11 +255,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
+              "Title": "Input.cpp",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Input.cpp",
+              "RelativeDocumentMoniker": "Input.cpp",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Input.cpp",
+              "RelativeToolTip": "Input.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-20T09:33:07.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlayerMove.h",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerMove.h",
+              "RelativeDocumentMoniker": "PlayerMove.h",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerMove.h",
+              "RelativeToolTip": "PlayerMove.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-24T07:04:11.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Input.h",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Input.h",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Input.h",
               "RelativeDocumentMoniker": "Input.h",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Input.h",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Input.h",
               "RelativeToolTip": "Input.h",
               "ViewState": "AgIAAAkAAAAAAAAAAAArwCIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -215,35 +291,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Camera.h",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Camera.h",
-              "RelativeDocumentMoniker": "Camera.h",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Camera.h",
-              "RelativeToolTip": "Camera.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-26T07:59:26.789Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Camera.cpp",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Camera.cpp",
-              "RelativeDocumentMoniker": "Camera.cpp",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Camera.cpp",
-              "RelativeToolTip": "Camera.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-22T04:46:05.659Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "GameManager.cpp",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameManager.cpp",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameManager.cpp",
               "RelativeDocumentMoniker": "GameManager.cpp",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameManager.cpp",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameManager.cpp",
               "RelativeToolTip": "GameManager.cpp",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -251,11 +303,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "PlayerAnimBase.cpp",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerAnimBase.cpp",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerAnimBase.cpp",
               "RelativeDocumentMoniker": "PlayerAnimBase.cpp",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerAnimBase.cpp",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerAnimBase.cpp",
               "RelativeToolTip": "PlayerAnimBase.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -265,9 +317,9 @@
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "PlayerIdle.cpp",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerIdle.cpp",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerIdle.cpp",
               "RelativeDocumentMoniker": "PlayerIdle.cpp",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerIdle.cpp",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerIdle.cpp",
               "RelativeToolTip": "PlayerIdle.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -275,11 +327,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "PlayerAnimBase.h",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerAnimBase.h",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerAnimBase.h",
               "RelativeDocumentMoniker": "PlayerAnimBase.h",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerAnimBase.h",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerAnimBase.h",
               "RelativeToolTip": "PlayerAnimBase.h",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -289,9 +341,9 @@
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "PlayerIdle.h",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerIdle.h",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerIdle.h",
               "RelativeDocumentMoniker": "PlayerIdle.h",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerIdle.h",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerIdle.h",
               "RelativeToolTip": "PlayerIdle.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -299,23 +351,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "PlayerMove.cpp",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerMove.cpp",
-              "RelativeDocumentMoniker": "PlayerMove.cpp",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\PlayerMove.cpp",
-              "RelativeToolTip": "PlayerMove.cpp",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-20T10:26:04.435Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 25,
               "Title": "Effekseer.Modules.h",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EffekseerForDXLib.h\\Effekseer.Modules.h",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EffekseerForDXLib.h\\Effekseer.Modules.h",
               "RelativeDocumentMoniker": "EffekseerForDXLib.h\\Effekseer.Modules.h",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EffekseerForDXLib.h\\Effekseer.Modules.h",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EffekseerForDXLib.h\\Effekseer.Modules.h",
               "RelativeToolTip": "EffekseerForDXLib.h\\Effekseer.Modules.h",
               "ViewState": "AgIAAO0EAAAAAAAAAAAUwPwEAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -325,9 +365,9 @@
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "Skydome.h",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Skydome.h",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Skydome.h",
               "RelativeDocumentMoniker": "Skydome.h",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Skydome.h",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Skydome.h",
               "RelativeToolTip": "Skydome.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -337,59 +377,40 @@
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "Stage.h",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Stage.h",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Stage.h",
               "RelativeDocumentMoniker": "Stage.h",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Stage.h",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Stage.h",
               "RelativeToolTip": "Stage.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-20T08:29:26.57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Skydome.cpp",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Skydome.cpp",
-              "RelativeDocumentMoniker": "Skydome.cpp",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Skydome.cpp",
-              "RelativeToolTip": "Skydome.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-22T04:46:16.952Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Stage.cpp",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Stage.cpp",
-              "RelativeDocumentMoniker": "Stage.cpp",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\Stage.cpp",
-              "RelativeToolTip": "Stage.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-20T08:11:40.719Z"
             }
           ]
         },
         {
-          "DockedWidth": 175,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 143,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyAStar.h",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyAStar.h",
+              "RelativeDocumentMoniker": "EnemyAStar.h",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyAStar.h",
+              "RelativeToolTip": "EnemyAStar.h",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-20T08:08:02.267Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "GameManager.h",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameManager.h",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameManager.h",
               "RelativeDocumentMoniker": "GameManager.h",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameManager.h",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameManager.h",
               "RelativeToolTip": "GameManager.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -397,24 +418,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EnemyAStar.h",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyAStar.h",
-              "RelativeDocumentMoniker": "EnemyAStar.h",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyAStar.h",
-              "RelativeToolTip": "EnemyAStar.h",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAlwC4AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-20T08:08:02.267Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "GameSceneBase.cpp",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameSceneBase.cpp",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameSceneBase.cpp",
               "RelativeDocumentMoniker": "GameSceneBase.cpp",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameSceneBase.cpp",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameSceneBase.cpp",
               "RelativeToolTip": "GameSceneBase.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -422,11 +430,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "EnemyBase.h",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyBase.h",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyBase.h",
               "RelativeDocumentMoniker": "EnemyBase.h",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyBase.h",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\EnemyBase.h",
               "RelativeToolTip": "EnemyBase.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -434,11 +442,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "GameSceneBase.h",
-              "DocumentMoniker": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameSceneBase.h",
+              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameSceneBase.h",
               "RelativeDocumentMoniker": "GameSceneBase.h",
-              "ToolTip": "E:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameSceneBase.h",
+              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\3DActionGame\\GameSceneBase.h",
               "RelativeToolTip": "GameSceneBase.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",

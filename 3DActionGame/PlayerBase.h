@@ -23,7 +23,7 @@ public:
 	void Setposition(const VECTOR set) { position = set; }
 
 protected:
-	static constexpr float Scale = 0.0052f;	//モデルの大きさの倍数
+	static constexpr float Scale = 0.004f;	//モデルの大きさの倍数
 
 	int PlayerHandle;	//モデルハンドル
 	int currentState;	//現在のプレイヤーの状態

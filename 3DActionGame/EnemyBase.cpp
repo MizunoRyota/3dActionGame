@@ -40,4 +40,5 @@ void EnemyBase::Move()
 void EnemyBase::Draw()
 {
 	MV1DrawModel(EnemyHandle);
+	astar->Draw();		// A*のデバッグ用描画
 }
