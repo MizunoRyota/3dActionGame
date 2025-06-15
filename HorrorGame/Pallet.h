@@ -16,6 +16,4 @@ namespace Pallet
 
     inline constexpr Color LemonYellow{ 255,244,80 };
 
-
-
 }

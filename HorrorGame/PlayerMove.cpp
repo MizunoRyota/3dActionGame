@@ -157,7 +157,6 @@ void PlayerMove::MoveAngle(const VECTOR& targetPosition)
 
 void PlayerMove::Move(const VECTOR& MoveVector)
 {
-	// HACK: 移動距離が0.01未満で微妙に移動していた場合はじんわり移動してバグる
 	// x軸かy軸方向に 0.01f 以上移動した場合は「移動した」フラグを１にする
 	if (fabs(MoveVector.x) > 0.01f || fabs(MoveVector.z) > 0.01f)
 	{
@@ -167,5 +166,4 @@ void PlayerMove::Move(const VECTOR& MoveVector)
 	{
 		isMove = false;
 	}
-
 }

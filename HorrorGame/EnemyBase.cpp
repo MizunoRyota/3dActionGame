@@ -4,7 +4,7 @@
 
 EnemyBase::EnemyBase()
 	:EnemyHandle(0)
-	, position(VGet(20.0f, 0.50f, 20.0f))
+	,position(VGet(20.0f, 0.50f, 20.0f))
 	,angleVector(VGet(0,0,0))
 	,angle(0)
 	,vibeTime(0)
@@ -50,7 +50,10 @@ void EnemyBase::Update(const VECTOR& playerpos,  Stage& stage)
 	Move(chase->GetMoveScale(),stage);
 
 }
-
+/// <summary>
+/// コントローラーの振動タイマー
+/// </summary>
+/// <param name="playerpos"></param>
 void EnemyBase::VibeTimer(const VECTOR& playerpos)
 {
 	// 初回の呼び出し時に開始時刻を設定
@@ -73,7 +76,6 @@ void EnemyBase::VibeTimer(const VECTOR& playerpos)
 			vibeTime = 0;
 		}
 	}
-
 }
 
 /// @brief 

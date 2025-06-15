@@ -18,7 +18,7 @@ public:
 	virtual void Move(const VECTOR& MoveVector, Stage& stage);	//ポジションセット
 	virtual void Draw(const VECTOR& playerpos);					//表示
 
-	void VibeTimer(const VECTOR& playerpos);
+	void VibeTimer(const VECTOR& playerpos);					//コントローラーの振動タイマー
 
 	//モデルのgetter
 	// モデルハンドルの取得.
@@ -29,20 +29,20 @@ public:
 	void SetPos(const VECTOR set) { position = set; }
 
 private:
-	bool debugPauseFlag = false;
+	bool debugPauseFlag = false;							//
 
-	static constexpr float Scale = 1.20f;			//モデルの大きさの倍数
-	static constexpr float VibeLimit = 1000.0f;		//大きさ
+	static constexpr float Scale = 1.20f;					//モデルの大きさの倍数
+	static constexpr float VibeLimit = 1000.0f;				//大きさ
 	static constexpr float WithinVibeLimit = 500.0f;		//大きさ
 
 	int EnemyHandle;		//モデルハンドル
 	float angle;			//方向
 	VECTOR position;		//ポジション
 	VECTOR angleVector;		//方向
-	float vibeTime;
+	float vibeTime;			//バイブレーション時間
 
 	//インスタンス生成
-	A_Star* astar;
+	A_Star* astar;				
 	ChaseEnemy* chase;
 	CheckRange* checkrange;
 };

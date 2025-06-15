@@ -7,8 +7,9 @@ using namespace std;
 A_Star::A_Star()
 	: playerPos(VGet(0, 0.0f, 0.0f))
 	, enemyPos(VGet(0, 0.0f, 0.0f))
-	,nextChip_X(0)
-	,nextChip_Z(0)
+	, nextChip_X(0)
+	, nextChip_Z(0)
+	, isMove(false)
 {
 }
 
@@ -24,7 +25,6 @@ void A_Star::MapInitialize()
 		for (int j = 0; j < MapHeight; j++)
 		{
 			float x_pos = (j * MapChipSizeOffset) ;
-
 			float z_pos = (i * MapChipSizeOffset) ;
 
 			mapCheck[i][j].position = VECTOR(x_pos, 0, z_pos);
@@ -209,8 +209,8 @@ std::list<A_Star::position> A_Star::CalcEnemyLoad(position start, position goal)
 	printfDx("Enemyxpos%d\n", start.x);
 	printfDx("Enemyzpos%d\n", start.z);
 	// 経路が見つかったので、順に結果を表示する
-	for (list<position>::iterator p = result.begin(); p != result.end(); p++) {
-		printfDx("(%d, %d)", p->x, p->z);
+	for (auto& debug :result) {
+		printfDx("(%d, %d)", debug.x, debug.z);
 	}
 
 	// コンテナを返す
@@ -223,23 +223,26 @@ std::list<A_Star::position> A_Star::CalcEnemyLoad(position start, position goal)
 /// @param start 
 void A_Star::CalcMoveDistance(std::list<A_Star::position> result, position start)
 {
-
-	 nextChip_X = start.x;	
-	 nextChip_Z = start.z;
-
-	// 次に移動するマスを調べる
-	for (list<position>::iterator nextchip = result.begin(); nextchip != result.end(); nextchip++)
+	if (!isMove)
 	{
-		nextChip_X = start.x - nextchip->x;
-		nextChip_Z = start.z - nextchip->z;
-		if (nextChip_X != 0 && nextChip_Z != 0)
+		nextChip_X = start.x;
+		nextChip_Z = start.z;
+		// 次に移動するマスを調べる
+		for (auto& nextchip : result)
 		{
-			nextChip_X > 0 ? Right = true : Right = false;
-			nextChip_Z > 0 ? Down = true : Down = false;
-			nextChip_X < 0 ? Left = true : Left = false;
-			nextChip_Z < 0 ? Up = true : Up = false;
+			nextChip_X = start.x - nextchip.x;
+			nextChip_Z = start.z - nextchip.z;
+			if (nextChip_X != 0 && nextChip_Z != 0)
+			{
+				Right = nextChip_X > 0 ? true : false;
+				Down = nextChip_Z > 0 ? true : false;
+				Left = nextChip_X < 0 ? true : false;
+				Up = nextChip_Z < 0 ? true : false;
+				isMove = true;
+				result.pop_front();
+			}
+			break;
 		}
-		break;
 	}
 }
 
@@ -247,6 +250,19 @@ void A_Star::MoveEnemy()
 {
 	if (Up)
 	{
+		angleVec = VDot(mapCheck[nextChip_X][nextChip_Z - 1].position, enemyPos);
+	}
+	else if (Down)
+	{
+		angleVec = VDot(mapCheck[nextChip_X][nextChip_Z + 1].position, enemyPos);
+	}
+	else if (Right)
+	{
+		angleVec = VDot(mapCheck[nextChip_X + 1][nextChip_Z].position, enemyPos);
 
+	}
+	else if (Left)
+	{
+		angleVec = VDot(mapCheck[nextChip_X - 1][nextChip_Z].position, enemyPos);
 	}
 }

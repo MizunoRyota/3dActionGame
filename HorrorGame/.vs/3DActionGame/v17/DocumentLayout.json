@@ -1,101 +1,105 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Fragment.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Fragment.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Fragment.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Fragment.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\EnemyBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:EnemyBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\EnemyBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:EnemyBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\EnemyAStar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:EnemyAStar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Skydome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Skydome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Skydome.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Skydome.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\CheckChaseRange.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:CheckChaseRange.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\EnemyAStar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\EnemyAStar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:EnemyAStar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\ChaseEnemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:ChaseEnemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Fragment.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Fragment.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\CheckChaseRange.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:CheckChaseRange.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\EnemyAStar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:EnemyAStar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Stage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Stage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\EnemyBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:EnemyBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Stage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Stage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\EnemyBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:EnemyBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\ChaseEnemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\ChaseEnemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:ChaseEnemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\PlayerBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Fragment.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Fragment.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\PlayerMove.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerMove.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\PlayerBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\PlayerMove.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerMove.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Pallet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Pallet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\GameSceneBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\PlayerBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\PlayerMove.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerMove.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\PlayerMove.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerMove.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\PlayerBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:PlayerBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\ChaseEnemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:ChaseEnemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Skydome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Skydome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Skydome.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Skydome.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\CheckChaseRange.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:CheckChaseRange.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\CheckChaseRange.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:CheckChaseRange.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Stage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Stage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Stage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:Stage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\GameSceneBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{38D8A183-F4F3-405F-90A4-E54A797A0591}|3DActionGame.vcxproj|solutionrelative:GameSceneBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -106,17 +110,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 295,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
+              "Title": "Pallet.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Pallet.h",
+              "RelativeDocumentMoniker": "Pallet.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Pallet.h",
+              "RelativeToolTip": "Pallet.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-15T06:20:22.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Fragment.h",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Fragment.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Fragment.h",
               "RelativeDocumentMoniker": "Fragment.h",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Fragment.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Fragment.h",
               "RelativeToolTip": "Fragment.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-14T07:12:22.306Z",
               "EditorCaption": ""
@@ -125,71 +141,73 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Fragment.cpp",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Fragment.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Fragment.cpp",
               "RelativeDocumentMoniker": "Fragment.cpp",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Fragment.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Fragment.cpp",
               "RelativeToolTip": "Fragment.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-14T02:27:32.182Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "EnemyAStar.h",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\EnemyAStar.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\EnemyAStar.h",
               "RelativeDocumentMoniker": "EnemyAStar.h",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\EnemyAStar.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\EnemyAStar.h",
               "RelativeToolTip": "EnemyAStar.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-14T00:53:06.702Z"
+              "WhenOpened": "2025-06-14T00:53:06.702Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "ChaseEnemy.cpp",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\ChaseEnemy.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\ChaseEnemy.cpp",
               "RelativeDocumentMoniker": "ChaseEnemy.cpp",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\ChaseEnemy.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\ChaseEnemy.cpp",
               "RelativeToolTip": "ChaseEnemy.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACsAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-10T08:19:38.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "EnemyBase.cpp",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\EnemyBase.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\EnemyBase.cpp",
               "RelativeDocumentMoniker": "EnemyBase.cpp",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\EnemyBase.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\EnemyBase.cpp",
               "RelativeToolTip": "EnemyBase.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-05T04:47:44.13Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "EnemyAStar.cpp",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\EnemyAStar.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\EnemyAStar.cpp",
               "RelativeDocumentMoniker": "EnemyAStar.cpp",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\EnemyAStar.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\EnemyAStar.cpp",
               "RelativeToolTip": "EnemyAStar.cpp",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAAAKEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAAAPYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-05T04:34:15.326Z"
+              "WhenOpened": "2025-06-05T04:34:15.326Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "PlayerBase.h",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\PlayerBase.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\PlayerBase.h",
               "RelativeDocumentMoniker": "PlayerBase.h",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\PlayerBase.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\PlayerBase.h",
               "RelativeToolTip": "PlayerBase.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -197,36 +215,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 14,
               "Title": "PlayerMove.h",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\PlayerMove.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\PlayerMove.h",
               "RelativeDocumentMoniker": "PlayerMove.h",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\PlayerMove.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\PlayerMove.h",
               "RelativeToolTip": "PlayerMove.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-10T08:47:22.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "main.cpp",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\main.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAEwGAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAEwEYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-05T04:56:23.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T04:56:23.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "Skydome.cpp",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Skydome.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Skydome.cpp",
               "RelativeDocumentMoniker": "Skydome.cpp",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Skydome.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Skydome.cpp",
               "RelativeToolTip": "Skydome.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -234,11 +251,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "CheckChaseRange.cpp",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\CheckChaseRange.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\CheckChaseRange.cpp",
               "RelativeDocumentMoniker": "CheckChaseRange.cpp",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\CheckChaseRange.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\CheckChaseRange.cpp",
               "RelativeToolTip": "CheckChaseRange.cpp",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -246,11 +263,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 20,
               "Title": "CheckChaseRange.h",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\CheckChaseRange.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\CheckChaseRange.h",
               "RelativeDocumentMoniker": "CheckChaseRange.h",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\CheckChaseRange.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\CheckChaseRange.h",
               "RelativeToolTip": "CheckChaseRange.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -258,23 +275,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 5,
               "Title": "ChaseEnemy.h",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\ChaseEnemy.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\ChaseEnemy.h",
               "RelativeDocumentMoniker": "ChaseEnemy.h",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\ChaseEnemy.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\ChaseEnemy.h",
               "RelativeToolTip": "ChaseEnemy.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-10T08:19:27.901Z"
+              "WhenOpened": "2025-06-10T08:19:27.901Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": "Stage.h",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Stage.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Stage.h",
               "RelativeDocumentMoniker": "Stage.h",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Stage.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Stage.h",
               "RelativeToolTip": "Stage.h",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -284,34 +302,34 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "EnemyBase.h",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\EnemyBase.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\EnemyBase.h",
               "RelativeDocumentMoniker": "EnemyBase.h",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\EnemyBase.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\EnemyBase.h",
               "RelativeToolTip": "EnemyBase.h",
-              "ViewState": "AgIAABEAAAAAAAAAAAApwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-10T07:53:34.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 12,
               "Title": "PlayerBase.cpp",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\PlayerBase.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\PlayerBase.cpp",
               "RelativeDocumentMoniker": "PlayerBase.cpp",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\PlayerBase.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\PlayerBase.cpp",
               "RelativeToolTip": "PlayerBase.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-05T04:52:09.374Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
               "Title": "Skydome.h",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Skydome.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Skydome.h",
               "RelativeDocumentMoniker": "Skydome.h",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Skydome.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Skydome.h",
               "RelativeToolTip": "Skydome.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -319,35 +337,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 8,
               "Title": "Camera.h",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Camera.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Camera.h",
               "RelativeDocumentMoniker": "Camera.h",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Camera.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Camera.h",
               "RelativeToolTip": "Camera.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-12T06:37:56.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 13,
               "Title": "PlayerMove.cpp",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\PlayerMove.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\PlayerMove.cpp",
               "RelativeDocumentMoniker": "PlayerMove.cpp",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\PlayerMove.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\PlayerMove.cpp",
               "RelativeToolTip": "PlayerMove.cpp",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-05T04:52:10.355Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "GameSceneBase.h",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\GameSceneBase.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\GameSceneBase.h",
               "RelativeDocumentMoniker": "GameSceneBase.h",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\GameSceneBase.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\GameSceneBase.h",
               "RelativeToolTip": "GameSceneBase.h",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -355,11 +373,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 22,
               "Title": "Stage.cpp",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Stage.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Stage.cpp",
               "RelativeDocumentMoniker": "Stage.cpp",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Stage.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Stage.cpp",
               "RelativeToolTip": "Stage.cpp",
               "ViewState": "AgIAAFgAAAAAAAAAAAAAAFgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -367,39 +385,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 7,
               "Title": "Camera.cpp",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Camera.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Camera.cpp",
               "RelativeDocumentMoniker": "Camera.cpp",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Camera.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Camera.cpp",
               "RelativeToolTip": "Camera.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-11T05:33:17.041Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 11,
               "Title": "Input.cpp",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Input.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Input.cpp",
               "RelativeDocumentMoniker": "Input.cpp",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Input.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Input.cpp",
               "RelativeToolTip": "Input.cpp",
-              "ViewState": "AgIAACEAAAAAAAAAAADwvzYAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-12T06:03:24.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 10,
               "Title": "Input.h",
-              "DocumentMoniker": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Input.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Input.h",
               "RelativeDocumentMoniker": "Input.h",
-              "ToolTip": "D:\\Yuizemi\\2025Production\\2025ProductionExhibition\\HorrorGame\\Input.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u30D0\u30C3\u30AF\u30A2\u30C3\u30D7\\HorrorGame\\HorrorGame\\Input.h",
               "RelativeToolTip": "Input.h",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-05T08:29:42.632Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 220,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

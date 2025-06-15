@@ -18,10 +18,10 @@ public:
 	const VECTOR& GetTarget()	const { return targetPosition; }
 
 private:
-	static constexpr float   CameraTargetPlayerHeight = 0.075f;   // プレイヤーからカメラの注視点への高さ
+	static constexpr float   CameraTargetPlayerHeight = 1.45f;		// プレイヤーからカメラの注視点への高さ
 	static constexpr float   ToPlayerLength = 0.20f;				// プレイヤーとの距離
-	static constexpr float AngleSpeed = 0.075f;					//向きが変わるスピード
-	static constexpr float CameraPlayerTargetHeight = 1.10f;		// プレイヤー座標からどれだけ高い位置を注視点とするか
+	static constexpr float AngleSpeed = 0.075f;						//向きが変わるスピード
+	static constexpr float CameraPlayerTargetHeight = 1.45f;		// プレイヤー座標からどれだけ高い位置を注視点とするか
 
 	float            angleVertical;					// カメラの垂直角度
 	float            angleHorizontal;				// カメラの水平角度

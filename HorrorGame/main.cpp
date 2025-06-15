@@ -68,6 +68,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 		skydome->Update();
 		input->Update();
 		enemy->Update(player->GetPosition(),*stage);
+		fragment->Update();
 		player->Update(*input,*camera,*stage);
 		camera->Update(player->GetPosition());
 		// áŠQ•¨§Œä

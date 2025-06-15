@@ -21,7 +21,7 @@ private:
 	bool Down;
 	bool Right;
 	bool Left;
-
+	bool isMove;
 #define X_ELM 0					// 親子ノードのx成分
 #define Z_ELM 1					// 親子ノードのz成分
 
@@ -98,6 +98,7 @@ private:
 	VECTOR playerPos;					//プレイヤーのポジション
 	VECTOR enemyPos;					//エネミーのポジション
 	VECTOR moveVec;
+	float angleVec;
 	int nextChip_X ;
 	int nextChip_Z ;
 public:

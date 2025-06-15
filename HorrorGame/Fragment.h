@@ -3,11 +3,13 @@ class Fragment
 {
 
 private:
-	static constexpr int FragmentNum = 50;
-	static constexpr float Harf = 0.5f;			//ハーフサイズ
+	static constexpr int FragmentNum = 50;			// フラグメントのサイズ
+	static constexpr float Harf = 0.5f;				//ハーフサイズ
+	static constexpr float Floating = 0.75f;				//ハーフサイズ
+
 	// マップサイズ（必要に応じて変更）
-	static constexpr int MapHeight = 11;		//マップの横軸
-	static constexpr int MapWidth = 11;			//マップの縦幅
+	static constexpr int MapHeight = 11;			//マップの横軸
+	static constexpr int MapWidth = 11;				//マップの縦幅
 	static constexpr float MapChipSize = 20.0f;		//マップのサイズ
 	static constexpr int AllMapChipSize_X = MapHeight * MapChipSize;		//
 	static constexpr int AllMapChipSize_Z = MapWidth * MapChipSize;			//
@@ -15,6 +17,8 @@ private:
 	static constexpr float Scale = 0.001f;			//モデルの大きさの倍数
 
 	int FragmentHandle[FragmentNum];
+	float angle = 0.0f;		//フラグメントの角度
+
 	// 地形の種類
 	typedef enum _CHIPTYPE { PLANE, GLASS, POND, FRAGMENT, } CHIPTYPE;
 
@@ -43,12 +47,13 @@ private:
 	//map配列
 	mapchip setFragmetChip[MapHeight][MapWidth];	//マップのチェック用配列
 
-
 public:
 	Fragment();
 	~Fragment();
 
 	void InitializeFragment();
+	void Update();
+	void RotateFragment();
 	void Draw();
 };
 
