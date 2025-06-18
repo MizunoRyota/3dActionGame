@@ -43,7 +43,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 	SetUseBackCulling(TRUE);		// バックカリングを行う
 
 	// フォグを有効にする
-	SetFogEnable(TRUE);
+	//SetFogEnable(TRUE);
 
 	// フォグの色を暗い色にする
 	SetFogColor(0.0f, 10.0f, 10.0f);

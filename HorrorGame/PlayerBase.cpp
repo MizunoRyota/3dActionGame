@@ -3,7 +3,7 @@
 #include"PlayerBase.h"
 
 PlayerBase::PlayerBase()
-	:position(VGet(30.0f,0.0f,50.0f))
+	:position(VGet(16.0f,0.0f,16.0f))
 {
 	PlayerHandle = MV1LoadModel(_T("data/3dmodel/Player/Player.mv1"));
 	// 3Dモデルのスケール決定
@@ -35,7 +35,7 @@ void PlayerBase::Move(const VECTOR& MoveVector, Stage& stage)
 	//プレイヤーの座標変更
 	position = VAdd(position, playermove->GetMoveScale());
 	// 当たり判定をして、新しい座標を保存する
-	position = stage.CheckCollision(*this, MoveVector);
+	//position = stage.CheckCollision(*this, MoveVector);
 	//プレイヤーの回転
 	MV1SetRotationXYZ(PlayerHandle, VGet(0.0f, playermove->GetMoceAngle() + DX_PI_F, 0.0f));
 	//プレイヤーのモデルの設置

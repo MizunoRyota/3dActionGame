@@ -4,7 +4,7 @@
 
 EnemyBase::EnemyBase()
 	:EnemyHandle(0)
-	,position(VGet(20.0f, 0.50f, 20.0f))
+	,position(VGet(21.0f, 0.0f,21.0f))
 	,angleVector(VGet(0,0,0))
 	,angle(0)
 	,vibeTime(0)
@@ -36,14 +36,14 @@ void EnemyBase::Initialize()
 /// @param stage 
 void EnemyBase::Update(const VECTOR& playerpos,  Stage& stage)
 {
-	if (checkrange->CheckWithin(playerpos, position))
-	{
-		position = chase->Update(playerpos, position);
-	}
-	else
-	{
-		astar->Update(position, playerpos);
-	}
+	//if (checkrange->CheckWithin(playerpos, position))
+	//{
+	//	position = chase->Update(playerpos, position);
+	//}
+	//else
+	//{
+		position = astar->Update(position, playerpos);
+	//}
 	VibeTimer(playerpos);
 
 	UpdateAngle(playerpos);
@@ -101,7 +101,7 @@ void EnemyBase::UpdateAngle(const VECTOR& playerpos)
 void EnemyBase::Move(const VECTOR& MoveVector, Stage& stage)
 {
 	// “–‚½‚è”»’è‚ğ‚µ‚ÄAV‚µ‚¢À•W‚ğ•Û‘¶‚·‚é
-	position = stage.CheckEnemyCollision(*this, MoveVector);
+	//position = stage.CheckEnemyCollision(*this, MoveVector);
 	MV1SetPosition(EnemyHandle, position);
 }
 

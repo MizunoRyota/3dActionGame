@@ -25,9 +25,6 @@ VECTOR ChaseEnemy::Update(const VECTOR& playerpos, const VECTOR& enemypos)
 		// プレイヤーと敵の位置ベクトルの差分
 		VECTOR toTarget = VSub(playerpos, enemypos);
 
-		// ベクトルの長さ（距離）
-		float distance = VSize(toTarget);
-
 		// プレイヤーに向かって進む方向を単位ベクトルで求める
 		VECTOR direction = VNorm(toTarget);
 

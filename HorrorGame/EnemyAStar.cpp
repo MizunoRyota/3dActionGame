@@ -10,6 +10,10 @@ A_Star::A_Star()
 	, nextChip_X(0)
 	, nextChip_Z(0)
 	, isMove(false)
+	, Up(false)
+	, Down(false)
+	, Right(false)
+	, Left(false)
 {
 }
 
@@ -27,7 +31,7 @@ void A_Star::MapInitialize()
 			float x_pos = (j * MapChipSizeOffset) ;
 			float z_pos = (i * MapChipSizeOffset) ;
 
-			mapCheck[i][j].position = VECTOR(x_pos, 0, z_pos);
+			mapCheck[i][j].position = VECTOR(x_pos + 2.5f, 0, z_pos + 2.5f);
 		}
 	}
 }
@@ -42,6 +46,7 @@ VECTOR A_Star::Update(const VECTOR& enemypos, const VECTOR& playerpos)
 	this->playerPos = playerpos;
 	
 	printfDx("playerxpos%f\n", playerPos.x);
+	printfDx("playerzpos%f\n", playerPos.z);
 	printfDx("Enemyxpos%f\n", enemyPos.x);
 	printfDx("Enemyzpos%f\n", enemyPos.z);
 	printfDx("UP%d\n", Up);
@@ -62,6 +67,7 @@ VECTOR A_Star::Update(const VECTOR& enemypos, const VECTOR& playerpos)
 
 	MoveEnemy();
 
+	CheckMoveNextPos();
 	return enemyPos;
 
 }
@@ -86,23 +92,19 @@ std::pair<int,int> A_Star::CheckCharaPos(const VECTOR& pos)
 		{
 			padd_X = (j + 1) * 5.0f;
 			padd_Z = (i + 1) * 5.0f;
-			madd_X = j* 5.0f;
+			madd_X = j * 5.0f;
 			madd_Z = i * 5.0f;
 
-			if (padd_X >= pos.x && pos.x >madd_X && padd_Z >= pos.z && pos.z > madd_Z)
+			if (padd_X >= pos.x && pos.x > madd_X && padd_Z >= pos.z && pos.z > madd_Z)
 			{
-
 				isCharaChip_X = j;
 				isCharaChip_Z = i;
-
 				return { isCharaChip_X,isCharaChip_Z };
 			}
- 		}
+		}
 	}
 
-
 	return { isCharaChip_X,isCharaChip_Z };
-
 }
 
 /// @brief 
@@ -208,6 +210,8 @@ std::list<A_Star::position> A_Star::CalcEnemyLoad(position start, position goal)
 
 	printfDx("Enemyxpos%d\n", start.x);
 	printfDx("Enemyzpos%d\n", start.z);
+	printfDx("nextchipX%d\n", nextChipPos.x);
+	printfDx("nextchipZ%d\n", nextChipPos.z);
 	// 経路が見つかったので、順に結果を表示する
 	for (auto& debug :result) {
 		printfDx("(%d, %d)", debug.x, debug.z);
@@ -227,12 +231,14 @@ void A_Star::CalcMoveDistance(std::list<A_Star::position> result, position start
 	{
 		nextChip_X = start.x;
 		nextChip_Z = start.z;
+		currentChip_X = start.x;
+		currentChip_Z = start.z;
 		// 次に移動するマスを調べる
 		for (auto& nextchip : result)
 		{
-			nextChip_X = start.x - nextchip.x;
-			nextChip_Z = start.z - nextchip.z;
-			if (nextChip_X != 0 && nextChip_Z != 0)
+			nextChip_X = nextchip.x - start.x ;
+			nextChip_Z = nextchip.z - start.z;
+			if (nextChip_X != 0 || nextChip_Z != 0)
 			{
 				Right = nextChip_X > 0 ? true : false;
 				Down = nextChip_Z > 0 ? true : false;
@@ -240,29 +246,71 @@ void A_Star::CalcMoveDistance(std::list<A_Star::position> result, position start
 				Up = nextChip_Z < 0 ? true : false;
 				isMove = true;
 				result.pop_front();
+				break;
 			}
-			break;
 		}
 	}
 }
 
-void A_Star::MoveEnemy()
+VECTOR A_Star::MoveEnemy()
 {
-	if (Up)
+	if (isMove)
 	{
-		angleVec = VDot(mapCheck[nextChip_X][nextChip_Z - 1].position, enemyPos);
-	}
-	else if (Down)
-	{
-		angleVec = VDot(mapCheck[nextChip_X][nextChip_Z + 1].position, enemyPos);
-	}
-	else if (Right)
-	{
-		angleVec = VDot(mapCheck[nextChip_X + 1][nextChip_Z].position, enemyPos);
+
+		int nextChiopPos_X = 0;
+		int nextChiopPos_Z = 0;
+
+		TargetVec = VGet(0, 0, 0);	// ターゲットベクトルの初期化
+
+		if (Up)
+		{
+			nextChiopPos_X = currentChip_X;
+			nextChiopPos_Z = currentChip_Z - nextChip;
+			TargetVec = VSub(mapCheck[nextChiopPos_X][nextChiopPos_Z].position, enemyPos);
+			nextChipPos = mapCheck[nextChiopPos_X][nextChiopPos_Z].position;
+		}
+		else if (Down)
+		{
+			nextChiopPos_X = currentChip_X;
+			nextChiopPos_Z = currentChip_Z + nextChip;
+			TargetVec = VSub(mapCheck[nextChiopPos_X][nextChiopPos_Z].position, enemyPos);
+			nextChipPos = mapCheck[nextChiopPos_X][nextChiopPos_Z].position;
+		}
+		else if (Right)
+		{
+			nextChiopPos_X = currentChip_X + nextChip;
+			nextChiopPos_Z = currentChip_Z;
+			TargetVec = VSub(mapCheck[nextChiopPos_X][nextChiopPos_Z].position, enemyPos);
+			nextChipPos = mapCheck[nextChiopPos_X][nextChiopPos_Z].position;
+		}
+		else if (Left)
+		{
+			nextChiopPos_X = currentChip_X - nextChip;
+			nextChiopPos_Z = currentChip_Z;
+			TargetVec = VSub(mapCheck[nextChiopPos_X][nextChiopPos_Z].position, enemyPos);
+			nextChipPos = mapCheck[nextChiopPos_X][nextChiopPos_Z].position;
+		}
+
+		// プレイヤーに向かって進む方向を単位ベクトルで求める
+		VECTOR direction = VNorm(TargetVec);
+
+		// 敵が進む距離（移動速度に基づく）
+		moveVec = VScale(direction, MoveSpeed);
+
+		// 敵の位置を更新
+		enemyPos = VAdd(enemyPos, moveVec);
+
+		return enemyPos;
 
 	}
-	else if (Left)
+}
+
+void A_Star::CheckMoveNextPos()
+{
+	// x軸かy軸方向に 0.5f 以上移動した場合は「移動した」フラグを１にする
+	if (nextChipPos.x - 0.5f <= enemyPos.x && nextChipPos.x + 0.5f >= enemyPos.x && nextChipPos.z - 0.5f <= enemyPos.z && nextChipPos.z + 0.50f >= enemyPos.z)
 	{
-		angleVec = VDot(mapCheck[nextChip_X - 1][nextChip_Z].position, enemyPos);
+		isMove = false;
 	}
+
 }
