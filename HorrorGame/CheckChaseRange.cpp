@@ -44,6 +44,6 @@ bool CheckRange::CheckWithin(const VECTOR& playerpos, const VECTOR& enemypos)
 /// @param enemypos 
 void CheckRange::DebugDraw(const VECTOR& playerpos, const VECTOR& enemypos)
 {
-    DrawSphere3D(enemypos, enemeyRadius, 16, Pallet::Black.GetHandle(), Pallet::Black.GetHandle(), false);
-    DrawSphere3D(playerpos, playerRadius, 16, Pallet::Black.GetHandle(), Pallet::Black.GetHandle(), false);
+    //DrawSphere3D(enemypos, enemeyRadius, 16, Pallet::Black.GetHandle(), Pallet::Black.GetHandle(), false);
+    //DrawSphere3D(playerpos, playerRadius, 16, Pallet::Black.GetHandle(), Pallet::Black.GetHandle(), false);
 }

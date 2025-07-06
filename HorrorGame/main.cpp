@@ -1,13 +1,13 @@
 #include"EffekseerForDXLib.h"
 #include"Camera.h"
 #include"Skydome.h"
+#include"MapChip.h"
 #include"Stage.h"
-#include"Fragment.h"
 #include"Input.h"
 #include"PlayerBase.h"
-#include"PlayerMove.h"
 #include"EnemyBase.h"
-#include"EnemyAStar.h"
+#include"ObjectBase.h"
+#include"ScoreBase.h"
 
 /// <summary>
 /// メイン関数
@@ -42,33 +42,37 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 	SetWriteZBufferFlag(TRUE);		// Ｚバッファへの書き込みを行う
 	SetUseBackCulling(TRUE);		// バックカリングを行う
 
-	// フォグを有効にする
+	//// フォグを有効にする
 	//SetFogEnable(TRUE);
 
-	// フォグの色を暗い色にする
-	SetFogColor(0.0f, 10.0f, 10.0f);
-	// フォグの開始距離を0、終了距離を35にする
-	SetFogStartEnd(0.0f, 40.0f);
+	//// フォグの色を暗い色にする
+	//SetFogColor(0.0f, 10.0f, 10.0f);
+	//// フォグの開始距離を0、終了距離を35にする
+	//SetFogStartEnd(0.0f, 15.0f);
 
 	Camera* camera = new Camera();
 	Skydome* skydome = new Skydome();
-	Fragment* fragment = new Fragment();
 	Stage* stage = new Stage();
 	Input* input = new Input();
+	ObjectBase* objectbase = new ObjectBase();
 	// プレイヤーを生成
 	PlayerBase* player = new PlayerBase();
 	EnemyBase* enemy = new EnemyBase();
-
+	MapChip* mapchip = new MapChip();
+	ScoreBase* scorebase = new ScoreBase();
 	enemy->Initialize();
-	fragment->InitializeFragment();
+	mapchip->InitializeMap();
+	objectbase->Initialize(*mapchip);
+	scorebase->Initialize(player->GetPosition(), *mapchip,*objectbase);
 	while (ProcessMessage() == 0 && CheckHitKey(KEY_INPUT_ESCAPE) == 0)
 	{
 		auto prevTime = GetNowHiPerformanceCount();	// 処理が始まる前の時間
 
 		skydome->Update();
 		input->Update();
-		enemy->Update(player->GetPosition(),*stage);
-		fragment->Update();
+		enemy->Update(player->GetPosition(),*stage,*mapchip);
+		objectbase->Update();
+		scorebase->Update(player->GetPosition(), *mapchip);
 		player->Update(*input,*camera,*stage);
 		camera->Update(player->GetPosition());
 		// 障害物制御
@@ -76,7 +80,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 		// 画面を初期化する
 		ClearDrawScreen();
 		skydome->Draw();
-		fragment->Draw();
+		objectbase->Draw();
 		stage->Draw();
 		player->Draw();
 		enemy->Draw(player->GetPosition());

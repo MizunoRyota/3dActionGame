@@ -4,25 +4,25 @@
 #include <utility>
 #include<list>
 
+class MapChip;
+
 class A_Star
 {
 private:
-	static constexpr float Harf = 0.5f;			//ハーフサイズ
+	static constexpr float Harf = 0.5f;				//ハーフサイズ
 	// マップサイズ（必要に応じて変更）
-	static constexpr int MapHeight = 11;		//マップの横軸
-	static constexpr int MapWidth = 11;			//マップの縦幅
-	static constexpr int nextChip = 1;			//マップの縦幅
+	static constexpr int MapHeight = 11;			//マップの横軸
+	static constexpr int MapWidth = 11;				//マップの縦幅
+	static constexpr int nextChip = 1;				//マップの縦幅
 	static constexpr float MapChipSize = 10.0f;		//マップのサイズ
-	static constexpr int AllMapChipSize_X = MapHeight * MapChipSize;		//
-	static constexpr int AllMapChipSize_Z = MapWidth * MapChipSize;			//
-	static constexpr int MapChipSizeOffset = MapChipSize * Harf;			// 個々の座標を中心に設定するためのオフセット
+	static constexpr int MapChipSizeOffset = MapChipSize * Harf;			//個々の座標を中心に設定するためのオフセット
 	static constexpr int MaxDireciton = 4;									//前後左右の4方向
 
-	bool Up;
-	bool Down;
-	bool Right;
-	bool Left;
-	bool isMove;
+	bool Up;	//マップチップを上に移動するかどうか
+	bool Down;	//マップチップを下に移動するかどうか
+	bool Right;	//マップチップを右に移動するかどうか
+	bool Left;	//マップチップを左に移動するかどうか
+	bool isMove;	//マップチップの移動フラグ
 
 #define X_ELM 0					// 親子ノードのx成分
 #define Z_ELM 1					// 親子ノードのz成分
@@ -76,52 +76,42 @@ private:
 	{  0,-1 },{ -1, 0 },{ +1, 0 },{ 0, +1 },
 
 	};
-
 	//map配列
-	mapchip mapCheck[MapHeight][MapWidth];	//マップのチェック用配列
+	mapchip AstarMap[MapHeight][MapWidth];	//マップのチェック用配列
 
-	// マップ
-	char map[MapHeight][MapWidth] = {
-		// 0,1,2,3,4,5,6,7,8,9,10
-		  {3,3,3,3,3,3,3,3,3,3,3},//0
-		  {3,0,0,0,0,0,0,0,0,0,0},//1
-		  {3,0,0,0,0,0,0,0,0,0,0},//2
-		  {3,0,0,0,0,0,0,0,0,0,0},//3
-		  {3,0,0,0,0,0,0,0,0,0,0},//4
-		  {3,0,0,0,0,0,0,0,0,0,0},//5
-		  {3,0,0,0,0,0,0,0,0,0,0},//6
-		  {3,0,0,0,0,0,0,0,0,0,0},//7
-		  {3,0,0,0,0,0,0,0,0,0,0},//8
-		  {3,0,0,0,0,0,0,0,0,0,0},//9
-		  {3,3,3,3,3,0,3,3,3,3,3},//10
-	};
-
-	static constexpr float MoveSpeed = 0.03f;	//アニメーションを進める速度
+	static constexpr float MoveSpeed = 0.08f;	//
 	VECTOR playerPos;					//プレイヤーのポジション
 	VECTOR enemyPos;					//エネミーのポジション
-	VECTOR moveVec;
-	VECTOR angleVec;
+	VECTOR moveVec;						//エネミーの移動ベクトル
+	VECTOR angleVec;					//エネミーの移動ベクトル
 	VECTOR TargetVec;					//ターゲットの方向
 	VECTOR nextChipPos;					//次のマップチップの位置
-	int nextChip_X ;
-	int nextChip_Z ;
-	int currentChip_X;
-	int currentChip_Z;
+	int nextChip_X;		//次のマップチップのX座標
+	int nextChip_Z;		//次のマップチップのZ座標
+	int currentChip_X;	//現在のマップチップのX座標
+	int currentChip_Z;	//現在のマップチップのZ座標
+	bool isArrrived;				//到達フラグ
+	std::list<position> prevResult;
+	position prevGoalPos;		//ゴール位置
 public:
 	A_Star();
 	~A_Star();
 
 	void MapInitialize();		//マップの初期化
 
-	VECTOR Update(const VECTOR& enemypos, const VECTOR& playerpos);	//メインの更新
+	VECTOR Update(const VECTOR& enemypos, const VECTOR& playerpos, const MapChip& mapchip);	//メインの更新
 
 	std::pair<int, int> CheckCharaPos(const VECTOR& pos);		//マップチップ内のエネミーの位置特定
 
 	void CalcMoveDistance(std::list<A_Star::position> result, position start);
 
-	std::list<position> CalcEnemyLoad(position start, position goal);//エネミーのプレイヤーまでの道のり計算
+	std::list<position> CalcEnemyLoad(position start, position goal, const MapChip& mapchip);	//エネミーのプレイヤーまでの道のり計算
 
-	VECTOR MoveEnemy();
+	VECTOR MoveEnemy();		//移動したエネミーのポジションをセット
 
-	void CheckMoveNextPos();
+	void CheckMoveNextPos();	//次に移動するマップチップの位置をチェック
+		
+	void CheckEmptyList();		//マップチップの道のりのリストが空かどうか確認
+
+	void CheckMoveGoalPos(position prevgoal, position currentgoal);		//プレイヤーが移動したときのゴール位置のチェック
 };

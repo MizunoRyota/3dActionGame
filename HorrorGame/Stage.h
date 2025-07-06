@@ -28,8 +28,8 @@ private:
 	VECTOR position;
 
 	// HACK: 壁はXZ平面に垂直である前提で成り立っている。それ以外を置くとバグる
-	int							wallNum;			// 壁ポリゴンと判断されたポリゴンの数
-	int							floorNum;			// 床ポリゴンと判断されたポリゴンの数
+	int		wallNum;			// 壁ポリゴンと判断されたポリゴンの数
+	int		floorNum;			// 床ポリゴンと判断されたポリゴンの数
 
 	MV1_COLL_RESULT_POLY* wall[MaxHitColl];	// 壁ポリゴンと判断されたポリゴンの構造体のアドレスを保存しておくためのポインタ配列
 	MV1_COLL_RESULT_POLY* floor[MaxHitColl];	// 床ポリゴンと判断されたポリゴンの構造体のアドレスを保存しておくためのポインタ配列

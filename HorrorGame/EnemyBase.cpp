@@ -4,12 +4,12 @@
 
 EnemyBase::EnemyBase()
 	:EnemyHandle(0)
-	,position(VGet(21.0f, 0.0f,21.0f))
+	,position(VGet(30.0f, 0.0f,-23.0f))
 	,angleVector(VGet(0,0,0))
 	,angle(0)
 	,vibeTime(0)
 {
-	EnemyHandle = MV1LoadModel(_T("data/3dmodel/Enemy/siren.mv1"));
+	EnemyHandle = MV1LoadModel(_T("data/3dmodel/Enemy/sample.mv1"));
 	// 3Dモデルのスケール決定
 	MV1SetScale(EnemyHandle, VGet(Scale, Scale, Scale));
 	// 3Dモデルの位置決定
@@ -18,6 +18,7 @@ EnemyBase::EnemyBase()
 	astar = new A_Star();
 	chase = new ChaseEnemy();
 	checkrange = new CheckRange();
+	enemyanimmanager = new EnemyAnimationManager(EnemyHandle);
 }
 
 EnemyBase::~EnemyBase()
@@ -29,25 +30,22 @@ void EnemyBase::Initialize()
 {
 	//A*のマップ初期化
 	astar->MapInitialize();
+	//enemyanimmanager->Initialize(EnemyHandle);
 }
 /// @brief 
 /// 更新
 /// @param playerpos 
 /// @param stage 
-void EnemyBase::Update(const VECTOR& playerpos,  Stage& stage)
+void EnemyBase::Update(const VECTOR& playerpos, Stage& stage, const MapChip& mapchip)
 {
-	//if (checkrange->CheckWithin(playerpos, position))
-	//{
-	//	position = chase->Update(playerpos, position);
-	//}
-	//else
-	//{
-		position = astar->Update(position, playerpos);
-	//}
+	if (CheckCameraViewClip(position))
+	{
+		position = astar->Update(position, playerpos, mapchip);
+	}
 	VibeTimer(playerpos);
 
 	UpdateAngle(playerpos);
-	Move(chase->GetMoveScale(),stage);
+	Move(chase->GetMoveScale(), stage);
 
 }
 /// <summary>
@@ -61,7 +59,7 @@ void EnemyBase::VibeTimer(const VECTOR& playerpos)
 	{
 		vibeTime = GetNowCount();  // ミリ秒単位で現在時刻を取得
 	}
-	if (checkrange->CheckWithin(playerpos, position)&& GetNowCount() - vibeTime >= WithinVibeLimit)
+	if (checkrange->CheckWithin(playerpos, position) && GetNowCount() - vibeTime >= WithinVibeLimit)
 	{
 		// 振動開始
 		StartJoypadVibration(DX_INPUT_PAD1, 600, 100, -1);
@@ -71,8 +69,8 @@ void EnemyBase::VibeTimer(const VECTOR& playerpos)
 	{
 		if (GetNowCount() - vibeTime >= VibeLimit)
 		{
-					// 振動開始
-		StartJoypadVibration(DX_INPUT_PAD1, 400, 100, -1);
+			// 振動開始
+			StartJoypadVibration(DX_INPUT_PAD1, 400, 100, -1);
 			vibeTime = 0;
 		}
 	}

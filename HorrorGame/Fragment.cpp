@@ -1,5 +1,6 @@
 #include"DxLib.h"
 #include"Fragment.h"
+#include"MapChip.h"
 
 Fragment::Fragment()
 {
@@ -17,28 +18,22 @@ Fragment::Fragment()
 		MV1SetScale(FragmentHandle[i], VGet(Scale, Scale, Scale));
 	}
 }
-
 Fragment::~Fragment()
 {
 }
 
-void Fragment::InitializeFragment()
+void Fragment::InitializeFragment(MapChip& mapchip)
 {
 	int fragmentNum = 0;
-
-	for (int i = 0; i < MapWidth; i++)
+	for (int i = 0; i < 30; i++)
 	{
-		for (int j = 0; j < MapHeight; j++)
+		for (int j = 0; j < 30; j++)
 		{
-			float x_pos = (j * MapChipSizeOffset);
-			float z_pos = (i * MapChipSizeOffset);
-
-			setFragmetChip[i][j].position = VECTOR(x_pos, Floating, z_pos);
-			
 			// フラグメントだったら設置
-			char chip_type = map[j][i];
-
+			int chip_type = mapchip.GetMapChip(i, j);
 			if (chip_type == FRAGMENT) {
+				setFragmetChip[i][j].position = mapchip.GetMapChipPosition(i, j);
+				setFragmetChip[i][j].position.y = Floating;
 				MV1SetPosition(FragmentHandle[fragmentNum], setFragmetChip[i][j].position);
 				fragmentNum++;
 			}
@@ -51,9 +46,13 @@ void Fragment::Update()
 	RotateFragment();
 }
 
+void Fragment::DecreaceFragment()
+{
+	
+}
+
 void Fragment::RotateFragment()
 {
-
 	angle += 1.0f; // フラグメントの回転速度
 
 	for (int i = 0; i < FragmentNum; i++)

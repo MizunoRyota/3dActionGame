@@ -1,4 +1,6 @@
 #pragma once
+#include"MapChip.h"
+
 class Fragment
 {
 
@@ -11,32 +13,8 @@ private:
 	static constexpr int MapHeight = 11;			//マップの横軸
 	static constexpr int MapWidth = 11;				//マップの縦幅
 	static constexpr float MapChipSize = 10.0f;		//マップのサイズ
-	static constexpr int AllMapChipSize_X = MapHeight * MapChipSize;		//
-	static constexpr int AllMapChipSize_Z = MapWidth * MapChipSize;			//
 	static constexpr int MapChipSizeOffset = MapChipSize * Harf;			// 個々の座標を中心に設定するためのオフセット
 	static constexpr float Scale = 0.001f;			//モデルの大きさの倍数
-
-	int FragmentHandle[FragmentNum];
-	float angle = 0.0f;		//フラグメントの角度
-
-	// 地形の種類
-	typedef enum _CHIPTYPE { PLANE, GLASS, POND, FRAGMENT, } CHIPTYPE;
-
-	// マップ
-	char map[MapHeight][MapWidth] = {
-		// 0,1,2,3,4,5,6,7,8,9,10
-		  {3,3,3,3,3,3,3,3,3,3,3},//0
-		  {3,0,0,0,0,0,0,0,0,0,0},//1
-		  {3,0,0,0,0,0,0,0,0,0,0},//2
-		  {3,0,0,0,0,0,0,0,0,0,0},//3
-		  {3,0,0,0,3,3,3,0,0,0,0},//4
-		  {3,0,0,0,3,0,3,0,0,0,0},//5
-		  {3,0,0,0,3,0,3,0,0,0,0},//6
-		  {3,0,0,0,0,0,0,0,0,0,0},//7
-		  {3,0,0,0,0,0,0,0,0,0,0},//8
-		  {3,0,0,0,0,0,0,0,0,0,0},//9
-		  {3,3,3,3,3,0,3,3,3,3,3},//10
-	};
 
 	//マップチップ構造体の定義
 	struct mapchip
@@ -45,15 +23,21 @@ private:
 	};
 
 	//map配列
-	mapchip setFragmetChip[MapHeight][MapWidth];	//マップのチェック用配列
+	mapchip setFragmetChip[30][30];	//マップのチェック用配列
 
+	int FragmentHandle[FragmentNum];
+	float angle = 0.0f;		//フラグメントの角度
+	// 地形の種類
+	typedef enum _CHIPTYPE { PLANE, GLASS, POND, FRAGMENT, } CHIPTYPE;
 public:
 	Fragment();
 	~Fragment();
 
-	void InitializeFragment();
+	void InitializeFragment(MapChip& mapchip);
 	void Update();
 	void RotateFragment();
+	void DecreaceFragment();
 	void Draw();
-};
 
+	const VECTOR& GetFragmentPosition(int z,int x) const { return setFragmetChip[z][x].position; }
+};

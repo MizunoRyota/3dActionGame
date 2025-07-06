@@ -1,0 +1,18 @@
+﻿#pragma once
+#include"CheckGetScore.h"
+class ScoreBase
+{
+public:
+	ScoreBase();
+	~ScoreBase();
+	void Initialize(const VECTOR& playerpos, MapChip& mapchip);
+	void GetPosition(const VECTOR& playerpos, MapChip& mapchip);
+	void Update(const VECTOR& playerpos, MapChip& mapchip);
+
+private:
+	static constexpr int FragmentNum = 50;					//モデルの大きさの倍数
+	CheckGetScore* checkgetscore;
+	VECTOR FragmentPosition[FragmentNum];
+	VECTOR playerPosition;		//プレイヤーの座標
+	int currentScore;
+};

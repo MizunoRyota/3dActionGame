@@ -8,7 +8,7 @@ Stage::Stage()
 	:StageHandle(-1)
 	,wallNum(0)
 	,floorNum(0)
-	,position(VGet(30.0f,0,50.0f))
+	,position(VGet(30.0f,0,-30.0f))
 {
 	StageHandle = MV1LoadModel(_T("data/3dmodel/Stage/BackRooms/map_ver1.mv1"));
 	// 3Dモデルのスケール決定

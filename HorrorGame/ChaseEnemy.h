@@ -11,7 +11,7 @@ public:
 	const VECTOR& GetMoveScale() const { return moveVec; }
 
 private:
-	static constexpr float MoveSpeed = 0.045f;	//アニメーションを進める速度
+	static constexpr float MoveSpeed = 0.001f;	//アニメーションを進める速度
 
 	VECTOR position;
 	VECTOR moveVec;

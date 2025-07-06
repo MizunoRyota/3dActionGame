@@ -20,7 +20,7 @@ public:
 
 private:
 	VECTOR dir;
-	static constexpr float	MoveSpeed = 0.05f;	// 移動速度
+	static constexpr float	MoveSpeed = 0.15f;	// 移動速度
 	static constexpr float	AngleSpeed = 0.3f;	// 角度変化速度
 	VECTOR	targetMoveDirection;				// モデルが向くべき方向のベクトル
 	VECTOR	moveVec;							// このフレームの移動ベクトル

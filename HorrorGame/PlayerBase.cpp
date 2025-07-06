@@ -3,7 +3,7 @@
 #include"PlayerBase.h"
 
 PlayerBase::PlayerBase()
-	:position(VGet(16.0f,0.0f,16.0f))
+	:position(VGet(26.0f,0.0f,-26.0f))
 {
 	PlayerHandle = MV1LoadModel(_T("data/3dmodel/Player/Player.mv1"));
 	// 3Dモデルのスケール決定

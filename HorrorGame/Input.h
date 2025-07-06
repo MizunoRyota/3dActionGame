@@ -47,7 +47,7 @@ public:
 
 private:
 
-	static constexpr int AnalogKeyDeadZone = 200;     // スティックを倒してもすぐ反応しない領域
+	static constexpr int AnalogKeyDeadZone = 50;     // スティックを倒してもすぐ反応しない領域
 
 	int		nowFrameInput;				// 現在のフレームで押されているボタン
 	int		nowFrameNewInput;			// 現在のフレームで新たに押されたボタン

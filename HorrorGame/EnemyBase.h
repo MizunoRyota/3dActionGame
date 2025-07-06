@@ -2,6 +2,7 @@
 #include"EnemyAStar.h"
 #include"ChaseEnemy.h"
 #include"CheckChaseRange.h"
+#include"EnemyAnimationManager.h"
 
 class Stage;
 
@@ -13,7 +14,7 @@ public:
 
 	void Initialize();	//初期化
 
-	virtual void Update(const VECTOR& playerpos, Stage& stage);//更新
+	virtual void Update(const VECTOR& playerpos, Stage& stage, const MapChip& mapchip);//更新
 	void UpdateAngle(const VECTOR& player);						//向きの更新
 	virtual void Move(const VECTOR& MoveVector, Stage& stage);	//ポジションセット
 	virtual void Draw(const VECTOR& playerpos);					//表示
@@ -31,7 +32,7 @@ public:
 private:
 	bool debugPauseFlag = false;							//
 
-	static constexpr float Scale = 1.20f;					//モデルの大きさの倍数
+	static constexpr float Scale = 1.00f;					//モデルの大きさの倍数
 	static constexpr float VibeLimit = 1000.0f;				//大きさ
 	static constexpr float WithinVibeLimit = 500.0f;		//大きさ
 
@@ -45,4 +46,5 @@ private:
 	A_Star* astar;				
 	ChaseEnemy* chase;
 	CheckRange* checkrange;
+	EnemyAnimationManager* enemyanimmanager;
 };

@@ -1,0 +1,27 @@
+﻿#include"Dxlib.h"
+#include"ScoreBase.h"
+
+ScoreBase::ScoreBase()
+	:currentScore(0)
+{
+	checkgetscore = new CheckGetScore();
+}
+ScoreBase::~ScoreBase()
+{
+}
+
+void ScoreBase::Initialize(const VECTOR& playerpos, MapChip& mapchip)
+{
+	for (int i = 0; i < FragmentNum; i++)
+	{
+		FragmentPosition[i] = VGet(0, 0, 0); // 初期化
+	}
+}
+
+void ScoreBase::Update(const VECTOR& playerpos, MapChip& mapchip)
+{
+	for (int i = 0; i < FragmentNum; i++)
+	{
+		checkgetscore->Update(playerpos, FragmentPosition[i], mapchip);
+	}
+}

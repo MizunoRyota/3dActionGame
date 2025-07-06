@@ -21,7 +21,6 @@ VECTOR ChaseEnemy::Update(const VECTOR& playerpos, const VECTOR& enemypos)
 
 	if (CheckCameraViewClip(enemypos))
 	{
-
 		// プレイヤーと敵の位置ベクトルの差分
 		VECTOR toTarget = VSub(playerpos, enemypos);
 

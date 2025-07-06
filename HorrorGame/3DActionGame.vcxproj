@@ -146,18 +146,22 @@
     <ClCompile Include="Camera.cpp" />
     <ClCompile Include="ChaseEnemy.cpp" />
     <ClCompile Include="CheckChaseRange.cpp" />
+    <ClCompile Include="CheckGetScore.cpp" />
     <ClCompile Include="Color.cpp" />
+    <ClCompile Include="EnemyAnimationManager.cpp" />
     <ClCompile Include="EnemyAStar.cpp" />
     <ClCompile Include="EnemyBase.cpp" />
     <ClCompile Include="Fragment.cpp" />
-    <ClCompile Include="GameManager.cpp" />
-    <ClCompile Include="GameSceneBase.cpp" />
+    <ClCompile Include="ScoreEffect.cpp" />
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MapChip.cpp" />
+    <ClCompile Include="ObjectBase.cpp" />
     <ClCompile Include="PlayerAnimBase.cpp" />
     <ClCompile Include="PlayerBase.cpp" />
     <ClCompile Include="PlayerIdle.cpp" />
     <ClCompile Include="PlayerMove.cpp" />
+    <ClCompile Include="ScoreBase.cpp" />
     <ClCompile Include="Skydome.cpp" />
     <ClCompile Include="Stage.cpp" />
   </ItemGroup>
@@ -165,20 +169,27 @@
     <ClInclude Include="Camera.h" />
     <ClInclude Include="ChaseEnemy.h" />
     <ClInclude Include="CheckChaseRange.h" />
+    <ClInclude Include="CheckGetScore.h" />
     <ClInclude Include="Color.h" />
+    <ClInclude Include="EnemyAnimationManager.h" />
     <ClInclude Include="EnemyAStar.h" />
     <ClInclude Include="EnemyBase.h" />
     <ClInclude Include="Fragment.h" />
-    <ClInclude Include="GameManager.h" />
-    <ClInclude Include="GameSceneBase.h" />
+    <ClInclude Include="ScoreEffect.h" />
     <ClInclude Include="Input.h" />
+    <ClInclude Include="MapChip.h" />
+    <ClInclude Include="ObjectBase.h" />
     <ClInclude Include="Pallet.h" />
     <ClInclude Include="PlayerAnimBase.h" />
     <ClInclude Include="PlayerBase.h" />
     <ClInclude Include="PlayerIdle.h" />
     <ClInclude Include="PlayerMove.h" />
+    <ClInclude Include="ScoreBase.h" />
     <ClInclude Include="Skydome.h" />
     <ClInclude Include="Stage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MapChip.csv" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

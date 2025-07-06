@@ -26,6 +26,15 @@
     <Filter Include="Source\Objects">
       <UniqueIdentifier>{ccd9f9f3-1fd5-44e3-8002-683e38589c6d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Enemy\EnemyAnimation">
+      <UniqueIdentifier>{2685f122-e47f-4c94-b45f-6c1706ff203d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Score">
+      <UniqueIdentifier>{c6fd7b07-7e95-4487-be0b-b74951d2ba66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Check">
+      <UniqueIdentifier>{eb3b4f72-8f25-4f58-bb99-f43564c6631b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -49,9 +58,6 @@
     <ClCompile Include="PlayerMove.cpp">
       <Filter>Source\Player</Filter>
     </ClCompile>
-    <ClCompile Include="GameManager.cpp">
-      <Filter>Source\GamePlay</Filter>
-    </ClCompile>
     <ClCompile Include="Stage.cpp">
       <Filter>Source\Enviroment</Filter>
     </ClCompile>
@@ -64,9 +70,6 @@
     <ClCompile Include="PlayerIdle.cpp">
       <Filter>Source\Player\PlayerAnimation</Filter>
     </ClCompile>
-    <ClCompile Include="GameSceneBase.cpp">
-      <Filter>Source\GamePlay</Filter>
-    </ClCompile>
     <ClCompile Include="ChaseEnemy.cpp">
       <Filter>Source\Enemy</Filter>
     </ClCompile>
@@ -76,8 +79,26 @@
     <ClCompile Include="Color.cpp">
       <Filter>Source\MiniLib</Filter>
     </ClCompile>
+    <ClCompile Include="EnemyAnimationManager.cpp">
+      <Filter>Source\Enemy\EnemyAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreBase.cpp">
+      <Filter>Source\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="MapChip.cpp">
+      <Filter>Source\Enviroment</Filter>
+    </ClCompile>
     <ClCompile Include="Fragment.cpp">
       <Filter>Source\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectBase.cpp">
+      <Filter>Source\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreEffect.cpp">
+      <Filter>Source\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckGetScore.cpp">
+      <Filter>Source\Check</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -99,9 +120,6 @@
     <ClInclude Include="PlayerMove.h">
       <Filter>Source\Player</Filter>
     </ClInclude>
-    <ClInclude Include="GameManager.h">
-      <Filter>Source\GamePlay</Filter>
-    </ClInclude>
     <ClInclude Include="Stage.h">
       <Filter>Source\Enviroment</Filter>
     </ClInclude>
@@ -113,9 +131,6 @@
     </ClInclude>
     <ClInclude Include="PlayerIdle.h">
       <Filter>Source\Player\PlayerAnimation</Filter>
-    </ClInclude>
-    <ClInclude Include="GameSceneBase.h">
-      <Filter>Source\GamePlay</Filter>
     </ClInclude>
     <ClInclude Include="ChaseEnemy.h">
       <Filter>Source\Enemy</Filter>
@@ -129,8 +144,31 @@
     <ClInclude Include="Pallet.h">
       <Filter>Source\MiniLib</Filter>
     </ClInclude>
+    <ClInclude Include="EnemyAnimationManager.h">
+      <Filter>Source\Enemy\EnemyAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="MapChip.h">
+      <Filter>Source\Enviroment</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreBase.h">
+      <Filter>Source\Score</Filter>
+    </ClInclude>
     <ClInclude Include="Fragment.h">
       <Filter>Source\Objects</Filter>
     </ClInclude>
+    <ClInclude Include="ObjectBase.h">
+      <Filter>Source\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreEffect.h">
+      <Filter>Source\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckGetScore.h">
+      <Filter>Source\Check</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MapChip.csv">
+      <Filter>Source\Enviroment</Filter>
+    </None>
   </ItemGroup>
 </Project>

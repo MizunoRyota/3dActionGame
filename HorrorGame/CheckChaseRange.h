@@ -12,7 +12,7 @@ public:
 private:
 	static constexpr  float PlayerHight = 0.8f;		//ƒvƒŒƒCƒ„[‚Ì‚‚³
 	static constexpr  float playerRadius = 0.5f;		//ƒvƒŒƒCƒ„[‚Ì“–‚½‚è”»’è‚Ì”¼Œa
-	static constexpr  float enemeyRadius = 3.5f;		//Enemy‚Ì“–‚½‚è”»’è‚Ì”¼Œa
+	static constexpr  float enemeyRadius = 5.5f;		//Enemy‚Ì“–‚½‚è”»’è‚Ì”¼Œa
 
 	//bool isChaseWithin;				//’ÇÕ‹——£”»’è
 	float lengthRange;				//‰~‚Æ‰~‚Ì‹——£
